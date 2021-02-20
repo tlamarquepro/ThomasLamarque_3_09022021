@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACMA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB",
     "sources": [
-        "Ohmyfood!.scss"
+        "Ohmyfood!.scss",
+        "_base.scss"
     ],
     "names": [],
     "file": "Ohmyfood!.css"
