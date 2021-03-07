@@ -6,22 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://kit.fontawesome.com/dd42438dc1.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/devinhunt/typebase.css/master/typebase.css">
 	<link rel="stylesheet" type="text/css" href="Ohmyfood.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<title>Ohmyfood!</title>
 	<meta name="description" content="Site web Ohmyfood!">
 </head>
 
 <body>
-
+	
+	<div class="loader"></div>
 	<div id="bloc_page">
 
 		<header>
 
 			<div class="cont_head">
 
-				<div class="logo">
+				<a href="/index.html" class="cont_head__backa"><i class="fas fa-arrow-left"></i></a>
+				<div class="cont_head__logo">
 
-					<img src="images/Ohmyfood/Logo/ohmyfood@2x.svg" alt="logo Ohmyfood">
+					<img src="images/Ohmyfood/Logo/ohmyfood@2x.svg" alt="logo Ohmyfood" class="cont_head__logo__img" />
 					
 				 </div>
 
@@ -30,7 +35,7 @@
 		</header>
 
 		<main>
-
+			<div class="gradient"></div>
 			<section class="cont1">
 
 				<div class="cont1__icon"><i class="fas fa-map-marker-alt"></i></div>
@@ -42,7 +47,9 @@
 
 				<div class="cont2__reserv">Réservez le menu qui vous convient</div>
 				<div class="cont2__discov">Découvrez des restaurants d'exception, séléctionnés par nos soins.</div>
-				<div class="cont2__explor">Explorer nos restaurants</div>
+				<div class="cont2__explor">
+					<div class="cont2__explor__txt">Explorer nos restaurants</div>
+				</div>
 
 			</section>
 
@@ -51,69 +58,125 @@
 				<div class="cont3__fonct">Fonctionnement</div>
 				<div class="cont3__chois">
 					
-					<div class="cont3__chois__crl"></div>
-					<div class="cont3__chois__ico"></div>
+					<div class="cont3__chois__crl">
+						<div class="cont3__chois__crl__nmb">1</div>
+					</div>
+					<div class="cont3__chois__ico1"><i class="fas fa-mobile-alt"></i></div>
 					<div class="cont3__chois__txt">Choisissez un restaurant</div>
 
 				</div>
 
 				<div class="cont3__comp">
 
-					<div class="cont3__comp__crl"></div>
-					<div class="cont3__comp__ico"></div>
+					<div class="cont3__comp__crl">
+						<div class="cont3__comp__crl__nmb">2</div>
+					</div>
+					<div class="cont3__comp__ico2"><i class="fas fa-list-ul"></i></div>
 					<div class="cont3__comp__txt">Composez votre menu</div>
 
 				</div>
 
 				<div class="cont3__deg">
 
-					<div class="cont3__deg__crl"></div>
-					<div class="cont3__deg__ico"></div>
+					<div class="cont3__deg__crl">
+						<div class="cont3__deg__crl__nmb">3</div>
+					</div>
+					<div class="cont3__deg__ico3"><i class="fas fa-store"></i></div>
 					<div class="cont3__deg__txt">Dégustez au restaurant</div>
 				
 				</div>
 
 			</section>
 
-			<section class="cont_4">
+			<section class="cont4">
 
 				<div class="cont4__rest">Restaurants</div>
 				<div class="cont4__cont_rest">
 
-					<a href="#" class="cont4__cont_rest__rest1">
-						<div class="cont4__cont_rest__rest1__new"></div>
-						<img src="images/Ohmyfood/Restaurants/lap.jpg" alt="photo de plat" class="cont__cont_rest__rest1__lap" />
-						<div class="cont4__cont_rest__rest1__desc">
-							<div class="cont4__cont_rest__rest1__desctxt"></div>
-							<div class="cont4__cont_rest__rest1__ico"><i class="far fa-heart"></i></div>
-						</div>
-						
-					</a>
-					<a class="cont4__cont_rest__rest2">
-						<div class="cont4__cont_rest__rest2__new"></div>
-						<img src="images/Ohmyfood/Restaurants/lan.jpg" alt="photo de plat" class="cont__cont_rest__rest2__lan" />
-						<div class="cont4__cont_rest__rest2__desc">
-							<div class="cont4__cont_rest__rest2__desctxt"></div>
-							<div class="cont4__cont_rest__rest2__ico"><i class="far fa-heart"></i></div>
-						</div>
-					</a>
-					<a class="cont4__cont_rest__rest3">
-						<div class="cont4__cont_rest__rest3__new"></div>
-						<img src="images/Ohmyfood/Restaurants/ala.jpg" alt="photo de plat" class="cont__cont_rest__rest3__ala" />
-						<div class="cont4__cont_rest__rest3__desc">
-							<div class="cont4__cont_rest__rest3__desctxt"></div>
-							<div class="cont4__cont_rest__rest3__ico"><i class="far fa-heart"></i></div>
+					<a href="/les menus/lapalette.html">
+						<div class="cont4__cont_rest__rest1">
+							<div class="cont4__cont_rest__rest1__header">
+								<div class="cont4__cont_rest__rest1__header__contimg">
+									<img src="images/Ohmyfood/Restaurants/lap.jpg" alt="photo de plat" class="cont4__cont_rest__rest1__header__contimg__lap" />
+								</div>
+								<div class="cont4__cont_rest__rest1__header__new">
+									<div class="cont4__cont_rest__rest1__header__new__txt">Nouveau</div>
+								</div>
+							</div>
+							<div class="cont4__cont_rest__rest1__desc">
+								<div class="cont4__cont_rest__rest1__desc__cont1">
+									<div class="cont4__cont_rest__rest1__desc__cont1__title"><strong>La palette du goût</strong></div>
+									<div class="cont4__cont_rest__rest1__desc__cont1__city">Ménilmontant</div>
+								</div>
+								<div class="cont4__cont_rest__rest1__desc__cont2">
+									<div class="cont4__cont_rest__rest1__desc__cont2__ico1"><i class="far fa-heart"></i></div>
+									<div class="cont4__cont_rest__rest1__desc__cont2__ico2"><i class="fas fa-heart"></i></div>
+								</div>
+							</div>
+							
 						</div>
 					</a>
-					<a class="cont4__cont_rest__rest4">
-						<div class="cont4__cont_rest__rest4__new"></div>
-						<img src="images/Ohmyfood/Restaurants/led.jpg" alt="photo de plat" class="cont__cont_rest__rest4__led" />
-						<div class="cont4__cont_rest__rest4__desc">
-							<div class="cont4__cont_rest__rest4__desc"></div>
-							<div class="cont4__cont_rest__rest4__ico"><i class="far fa-heart"></i></div>
+					<a href="/les menus/lanote.html">
+						<div class="cont4__cont_rest__rest2">
+							<div class="cont4__cont_rest__rest2__header">
+								<div class="cont4__cont_rest__rest2__header__contimg">
+									<img src="images/Ohmyfood/Restaurants/lan.jpg" alt="photo de plat" class="cont4__cont_rest__rest2__header__contimg__lan" />
+								</div>
+								<div class="cont4__cont_rest__rest2__header__new">
+									<div class="cont4__cont_rest__rest2__header__new__txt">Nouveau</div>
+								</div>
+							</div>
+							<div class="cont4__cont_rest__rest2__desc">
+								<div class="cont4__cont_rest__rest2__desc__cont1">
+									<div class="cont4__cont_rest__rest2__desc__cont1__title"><strong>La note enchantée</strong></div>
+									<div class="cont4__cont_rest__rest2__desc__cont1__city">Charonne</div>
+								</div>
+								<div class="cont4__cont_rest__rest2__desc__cont2">
+									<div class="cont4__cont_rest__rest2__desc__cont2__ico1"><i class="far fa-heart"></i></div>
+									<div class="cont4__cont_rest__rest2__desc__cont2__ico2"><i class="fas fa-heart"></i></div>
+								</div>
+							</div>
 						</div>
 					</a>
-
+					<a href="/les menus/àla.html">
+						<div class="cont4__cont_rest__rest3">
+							<div class="cont4__cont_rest__rest3__header">
+								<div class="cont4__cont_rest__rest3__header__contimg">
+									<img src="images/Ohmyfood/Restaurants/ala.jpg" alt="photo de plat" class="cont4__cont_rest__rest3__header__contimg__ala" />
+								</div>
+							</div>
+							<div class="cont4__cont_rest__rest3__desc">
+								<div class="cont4__cont_rest__rest3__desc__cont1">
+									<div class="cont4__cont_rest__rest3__desc__cont1__title"><strong>À la française</strong></div>
+									<div class="cont4__cont_rest__rest3__desc__cont1__city">Cité Rouge</div>
+								</div>
+								<div class="cont4__cont_rest__rest3__desc__cont2">
+									<div class="cont4__cont_rest__rest3__desc__cont2__ico1"><i class="far fa-heart"></i></div>
+									<div class="cont4__cont_rest__rest3__desc__cont2__ico2"><i class="fas fa-heart"></i></div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="ledelice.html">
+						<div class="cont4__cont_rest__rest4">
+							<div class="cont4__cont_rest__rest4__header">
+								<div class="cont4__cont_rest__rest4__header__contimg">
+									<img src="images/Ohmyfood/Restaurants/led.jpg" alt="photo de plat" class="cont4__cont_rest__rest4__header__contimg__led" />
+								</div>
+							</div>
+							<div class="cont4__cont_rest__rest4__desc">
+								<div class="cont4__cont_rest__rest4__desc__cont1">
+									<div class="cont4__cont_rest__rest4__desc__cont1__title"><strong>Le délice des sens</strong></div>
+									<div class="cont4__cont_rest__rest4__desc__cont1__city">Folie-Méricourt</div>
+								</div>
+								<div class="cont4__cont_rest__rest4__desc__cont2">
+									<div class="cont4__cont_rest__rest4__desc__cont2__ico1"><i class="far fa-heart"></i></div>
+									<div class="cont4__cont_rest__rest4__desc__cont2__ico2"><i class="fas fa-heart"></i></div>
+								</div>
+							</div>
+						</div>
+					</a>
+					
 				</div>
 				
 			 </section>
@@ -126,17 +189,17 @@
 
 			<div class="footer__cont">
 
-				<div class="footer__cont__logo"><img src="images/Ohmyfood/Logo/ohmyfood@2x.svg" alt="logo Ohmyfood"></div>
-				<div class="footer__cont1">
-					<div class="footer__cont1__log"><i class="fas fa-utensils"></i></div>
-					<div class="footer__cont1__prop">Proposer un restaurant</div>
+				<div class="footer__cont__logo"><img src="images/Ohmyfood/Logo/ohmyfoodb.png" alt="logo Ohmyfood" class="footer__cont__logo__img"></div>
+				<div class="footer__cont__cont1">
+					<div class="footer__cont__cont1__log1"><i class="fas fa-utensils"></i></div>
+					<div class="footer__cont__cont1__prop">Proposer un restaurant</div>
 				</div>
-				<div class="footer__cont2">
-					<div class="footer__cont2__log"><i class="fas fa-hands-helping"></i></div>
-					<div class="footer__cont2__dev">Devenir partenaire</div>
+				<div class="footer__cont__cont2">
+					<div class="footer__cont__cont2__log2"><i class="fas fa-hands-helping"></i></div>
+					<div class="footer__cont__cont2__dev">Devenir partenaire</div>
 				</div>
-				<div class="footer__cont3">Mentions légales</div>
-				<div class="footer__cont4">Contact</div>
+				<div class="footer__cont__cont3">Mentions légales</div>
+				<div class="footer__cont__cont4">Contact</div>
 
 			</div>
 
