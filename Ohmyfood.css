@@ -109,7 +109,7 @@ a {
   margin-left: 44px;
   font-weight: bold;
   font-size: 1.4em;
-  font-family: "robotoregular";
+  font-family: 'robotoregular';
   text-align: center;
   margin-bottom: 10px;
   padding-top: 36px;
@@ -119,7 +119,7 @@ a {
   width: 90%;
   height: 46px;
   margin: auto;
-  font-family: "robotoregular";
+  font-family: 'robotoregular';
   font-size: 1.07em;
   font-weight: 100;
   text-align: center;
@@ -139,7 +139,7 @@ a {
 
 .cont2__explor__txt {
   padding-top: 14px;
-  font-family: "robotoregular";
+  font-family: 'robotoregular';
   color: white;
 }
 
@@ -244,7 +244,7 @@ a {
 
 .cont3__chois__crl__nmb, .cont3__comp__crl__nmb, .cont3__deg__crl__nmb {
   color: white;
-  font-family: "robotoregular";
+  font-family: 'robotoregular';
   font-size: 0.9em;
   padding-top: 3px;
   width: 10px;
@@ -274,7 +274,7 @@ a {
 
 .cont3__chois__txt, .cont3__comp__txt, .cont3__deg__txt {
   margin-top: 29px;
-  font-family: "robotoregular";
+  font-family: 'robotoregular';
 }
 
 .cont3__m {
@@ -479,18 +479,18 @@ a {
 
 .footer__cont__cont1__prop, .footer__cont__cont1__dev, .footer__cont__cont2__prop, .footer__cont__cont2__dev {
   color: white;
-  font-family: "robotoregular";
+  font-family: 'robotoregular';
 }
 
 .footer__cont__cont3 {
   color: white;
-  font-family: "robotoregular";
+  font-family: 'robotoregular';
   margin-bottom: 8px;
 }
 
 .footer__cont__cont4 {
   color: white;
-  font-family: "robotoregular";
+  font-family: 'robotoregular';
 }
 
 @-webkit-keyframes heart {
