@@ -3,7 +3,7 @@ $clr-secondary: #FF79DA;
 $clr-tertiary: #99E2D0;
 $b: black;
 $p: 1px red solid;
-$f: 'robotoregular';
+$f: 'Roboto';
 
 a {
     text-decoration: none;
@@ -54,7 +54,7 @@ a {
         margin-top: 16px;
     }
     &__city {
-        font-family: 'robotoregular';
+        font-family: $f;
         margin-top: 18px;
     }
     &__m {
@@ -169,7 +169,7 @@ a {
     height: 399px;
     background-color: white;
     &__fonct {
-        font-family: 'robotoregular';
+        font-family: $f;
         font-size: 1.44em;
         font-weight: bold;
         width: 90%;
@@ -240,7 +240,7 @@ a {
     height: 1226px;
     background-color: #F8F6F8;
     &__rest {
-        font-family: 'robotoregular';
+        font-family: $f;
         font-size: 1.4em;
         font-weight: bold;
         width: 90%;
@@ -295,7 +295,7 @@ a {
                         font-size: 0.88em;
                         color: #008766;
                         text-align: center;
-                        font-family: 'robotoregular';
+                        font-family: $f;
                         text-decoration: none;
                     }
                 }
@@ -305,7 +305,7 @@ a {
                 width: 93%;
                 margin: auto;
                 color: $b;
-                font-family: 'robotoregular';
+                font-family: $f;
                 &__cont1 {
                     width: 50%;
                     &__title {
