@@ -91,7 +91,7 @@ a {
         height: 60px;
         margin-left: 44px;
         font-weight: bold;
-        font-size: 1.4em;
+        font-size: 1.5em;
         font-family: $f;
         text-align: center;
         margin-bottom: 10px;
@@ -102,7 +102,7 @@ a {
         height: 46px;
         margin:auto;
         font-family: $f;
-        font-size: 1.07em;
+        font-size: 1.13em;
         font-weight: 100;
         text-align: center;
         color: $b;
@@ -115,6 +115,7 @@ a {
         border-radius: 25px;
         text-align: center;
         background: linear-gradient(to top left, $clr-primary, $clr-secondary);
+        box-shadow: 0px 5px 10px 0px rgb(173, 173, 173);
         &__txt {
             padding-top: 14px; 
             font-family: $f;

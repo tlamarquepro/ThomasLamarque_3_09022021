@@ -108,7 +108,7 @@ a {
   height: 60px;
   margin-left: 44px;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-family: "Roboto";
   text-align: center;
   margin-bottom: 10px;
@@ -120,7 +120,7 @@ a {
   height: 46px;
   margin: auto;
   font-family: "Roboto";
-  font-size: 1.07em;
+  font-size: 1.13em;
   font-weight: 100;
   text-align: center;
   color: black;
@@ -135,6 +135,8 @@ a {
   text-align: center;
   background: -webkit-gradient(linear, right bottom, left top, from(#9356DC), to(#FF79DA));
   background: linear-gradient(to top left, #9356DC, #FF79DA);
+  -webkit-box-shadow: 0px 5px 10px 0px #adadad;
+          box-shadow: 0px 5px 10px 0px #adadad;
 }
 
 .cont2__explor__txt {
