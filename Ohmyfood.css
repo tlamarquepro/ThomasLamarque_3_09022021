@@ -116,27 +116,16 @@ a {
   margin-bottom: 24px;
 }
 
-.cont2__explor {
+.cont2__btn {
   width: 218px;
   height: 50px;
   margin: auto;
   border-radius: 25px;
-  text-align: center;
-  background: -webkit-gradient(linear, right bottom, left top, from(#9356DC), to(#FF79DA));
-  background: linear-gradient(to top left, #9356DC, #FF79DA);
-  -webkit-box-shadow: 0px 5px 10px 0px #adadad;
-          box-shadow: 0px 5px 10px 0px #adadad;
-}
-
-.cont2__explor__txt {
-  padding-top: 14px;
-  font-family: "Roboto";
-  color: white;
 }
 
 .cont2__m {
   width: 100%;
-  height: 1037px;
+  height: 1038px;
   background-color: #f6f6f6;
   position: absolute;
   z-index: 2;
@@ -150,36 +139,35 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px red solid;
 }
 
 .cont2__m__lap__title {
   font-family: "shrikhandregular";
   font-size: 1.75em;
-  border: 1px red solid;
-  width: 300px;
+  width: 280px;
+  margin-top: 37px;
+  margin-left: 17px;
+  margin-right: 16px;
 }
 
 .cont2__m__lap__ico {
   width: 20px;
   height: 20px;
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 36px;
   position: relative;
-  border: 1px red solid;
 }
 
 .cont2__m__lap__ico__1 {
   position: absolute;
   width: 20px;
   height: 20px;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: black;
   z-index: 1;
 }
 
 .cont2__m__lap__ico__2 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   opacity: 0;
   background: -webkit-gradient(linear, right top, left bottom, from(#9356DC), to(#FF79DA));
   background: linear-gradient(to bottom left, #9356DC, #FF79DA);
@@ -201,6 +189,75 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-animation: heart 200ms ease-in-out;
           animation: heart 200ms ease-in-out;
+}
+
+.cont2__m__entr, .cont2__m__plat, .cont2__m__dess {
+  font-family: "Roboto";
+  margin-left: 18px;
+  width: 100px;
+  margin-top: 32px;
+}
+
+.cont2__m__bar {
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.cont2__m__ent, .cont2__m__pla, .cont2__m__des {
+  border: 1px red solid;
+  width: 92.5%;
+  height: 232px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.cont2__m__ent__1, .cont2__m__ent__2, .cont2__m__ent__3, .cont2__m__pla__1, .cont2__m__pla__2, .cont2__m__pla__3, .cont2__m__des__1, .cont2__m__des__2, .cont2__m__des__3 {
+  width: 100%;
+  height: 68px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 10px 0px #dadada;
+          box-shadow: 0px 5px 10px 0px #dadada;
+}
+
+.cont2__m__ent__1__title, .cont2__m__ent__2__title, .cont2__m__ent__3__title, .cont2__m__pla__1__title, .cont2__m__pla__2__title, .cont2__m__pla__3__title, .cont2__m__des__1__title, .cont2__m__des__2__title, .cont2__m__des__3__title {
+  font-family: "Roboto";
+  font-size: 1.1em;
+  font-weight: bold;
+  border: 1px red solid;
+  width: 260px;
+  margin-left: 12px;
+  padding-top: 12px;
+}
+
+.cont2__m__ent__1__cont, .cont2__m__ent__2__cont, .cont2__m__ent__3__cont, .cont2__m__pla__1__cont, .cont2__m__pla__2__cont, .cont2__m__pla__3__cont, .cont2__m__des__1__cont, .cont2__m__des__2__cont, .cont2__m__des__3__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cont2__m__ent__1__cont__txt, .cont2__m__ent__2__cont__txt, .cont2__m__ent__3__cont__txt, .cont2__m__pla__1__cont__txt, .cont2__m__pla__2__cont__txt, .cont2__m__pla__3__cont__txt, .cont2__m__des__1__cont__txt, .cont2__m__des__2__cont__txt, .cont2__m__des__3__cont__txt {
+  font-family: "Roboto";
+  font-size: 0.88em;
+  border: 1px red solid;
+  margin-left: 13px;
+  margin-top: 4px;
+  width: 283px;
+}
+
+.cont2__m__ent__1__cont__prix, .cont2__m__ent__2__cont__prix, .cont2__m__ent__3__cont__prix, .cont2__m__pla__1__cont__prix, .cont2__m__pla__2__cont__prix, .cont2__m__pla__3__cont__prix, .cont2__m__des__1__cont__prix, .cont2__m__des__2__cont__prix, .cont2__m__des__3__cont__prix {
+  font-family: "Roboto";
+  font-size: 0.88em;
+  border: 1px red solid;
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.cont2__m__ent__1, .cont2__m__ent__2, .cont2__m__pla__1, .cont2__m__pla__2, .cont2__m__des__1, .cont2__m__des__2 {
+  margin-bottom: 13px;
 }
 
 .cont3 {
@@ -285,7 +342,7 @@ a {
 .cont3__m {
   width: 100%;
   height: 124px;
-  background-color: #f6f;
+  background-color: #f6f6f6;
   position: absolute;
   z-index: 3;
   margin-top: 1002px;
@@ -583,6 +640,37 @@ a {
   100% {
     opacity: 1;
   }
+}
+
+.btn {
+  width: 218px;
+  height: 50px;
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+  background: -webkit-gradient(linear, right bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(to top left, #9356DC, #FF79DA);
+  -webkit-box-shadow: 0px 5px 10px 0px #adadad;
+          box-shadow: 0px 5px 10px 0px #adadad;
+}
+
+.btn__txt {
+  padding-top: 16px;
+  font-family: "Roboto";
+  color: white;
+}
+
+.btn--modif {
+  width: 185px;
+  height: 50px;
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+  background: -webkit-gradient(linear, right bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(to top left, #9356DC, #FF79DA);
+  -webkit-box-shadow: 0px 5px 10px 0px #adadad;
+          box-shadow: 0px 5px 10px 0px #adadad;
+  margin-top: 11px;
 }
 
 @font-face {

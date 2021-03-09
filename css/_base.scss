@@ -99,23 +99,15 @@ a {
         color: $b;
         margin-bottom: 24px;
     }
-    &__explor {
+    &__btn {
         width: 218px;
         height: 50px;
-        margin:auto;
+        margin: auto;
         border-radius: 25px;
-        text-align: center;
-        background: linear-gradient(to top left, $clr-primary, $clr-secondary);
-        box-shadow: 0px 5px 10px 0px rgb(173, 173, 173);
-        &__txt {
-            padding-top: 14px; 
-            font-family: $f;
-            color: white;
-        }
     }
     &__m {
         width: 100%;
-        height: 1037px;
+        height: 1038px;
         background-color: #f6f6f6;
         position: absolute;
         z-index: 2;
@@ -125,30 +117,29 @@ a {
         margin-top: 220px;
         &__lap {
             display: flex;
-            border: $p;
             &__title {
                 font-family: $fs;
                 font-size: 1.75em;
-                border: $p;
-                width: 300px;
+                width: 280px;
+                margin-top: 37px;
+                margin-left: 17px;
+                margin-right: 16px;
             }
             &__ico {
                 width: 20px;
                 height: 20px;
-                margin-top: 20px;
-                margin-left: 10px;
+                margin-top: 36px;
                 position: relative;
-                border: $p;
                 &__1 {
                     position: absolute;
                     width: 20px;
                     height: 20px;
-                    font-size: 1.3em;
+                    font-size: 1.5em;
                     color: $b;
                     z-index: 1;
                 }
                 &__2 {
-                    font-size: 1.3em;
+                    font-size: 1.5em;
                     opacity: 0;
                     background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
                     -webkit-background-clip: text;
@@ -165,6 +156,63 @@ a {
                     -webkit-text-fill-color: transparent;
                     animation: heart 200ms ease-in-out;
                 }
+            }
+        }
+        &__entr, &__plat, &__dess {
+            font-family: $f;
+            margin-left: 18px;
+            width: 100px;
+            margin-top: 32px;
+        }
+        &__bar {
+            width: 40px;
+            height: 3px;
+            background-color: $clr-tertiary;
+            margin-top: 5px;
+            margin-left: 18px;
+        }
+        &__ent, &__pla, &__des {
+            border: $p;
+            width: 92.5%;
+            height: 232px;
+            margin: auto;
+            margin-top: 20px;
+            &__1, &__2, &__3 {
+                width: 100%;
+                height: 68px;
+                background-color: white;
+                border-radius: 15px;
+                box-shadow: 0px 5px 10px 0px rgb(218, 218, 218);
+                &__title {
+                    font-family: $f;
+                    font-size: 1.1em;
+                    font-weight: bold;
+                    border: $p;
+                    width: 260px;
+                    margin-left: 12px;
+                    padding-top: 12px;
+                }
+                &__cont {
+                    display: flex;
+                    &__txt {
+                        font-family: $f;
+                        font-size: 0.88em;
+                        border: $p;
+                        margin-left: 13px;
+                        margin-top: 4px;
+                        width: 283px;
+                    }
+                    &__prix {
+                        font-family: $f;
+                        font-size: 0.88em;
+                        border: $p;
+                        margin-top: 4px;
+                        font-weight: bold;
+                    }
+                }
+            }
+            &__1, &__2 {
+                margin-bottom: 13px;
             }
         }
     }
@@ -237,11 +285,10 @@ a {
     &__m {
         width: 100%;
         height: 124px;
-        background-color: #f6f;
+        background-color: #f6f6f6;
         position: absolute;
         z-index: 3;
         margin-top: 1002px;
-        
     }
 }
 .cont4 {
