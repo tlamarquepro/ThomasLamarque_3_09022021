@@ -142,7 +142,7 @@ a {
 }
 
 .cont2__m__lap__title {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
   font-size: 1.75em;
   width: 280px;
   margin-top: 37px;
@@ -153,7 +153,7 @@ a {
 .cont2__m__lap__ico {
   width: 20px;
   height: 20px;
-  margin-top: 36px;
+  margin-top: 38px;
   position: relative;
 }
 
@@ -671,13 +671,5 @@ a {
   -webkit-box-shadow: 0px 5px 10px 0px #adadad;
           box-shadow: 0px 5px 10px 0px #adadad;
   margin-top: 11px;
-}
-
-@font-face {
-  font-family: 'shrikhandregular';
-  src: url("/webfont/shrikhand/shrikhand-regular-webfont.eot");
-  src: url("/webfont/shrikhand/shrikhand-regular-webfont.eot") format("embedded-opentype"), url("/webfont/shrikhand/shrikhand-regular-webfont.woff") format("woff"), url("/webfont/shrikhand/shrikhand-regular-webfont.ttf") format("truetype"), url("/webfont/shrikhand/shrikhand-regular-webfont.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
 }
 /*# sourceMappingURL=Ohmyfood.css.map */
