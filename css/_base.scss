@@ -183,31 +183,48 @@ a {
                 background-color: white;
                 border-radius: 15px;
                 box-shadow: 0px 5px 10px 0px rgb(218, 218, 218);
-                &__title {
-                    font-family: $f;
-                    font-size: 1.1em;
-                    font-weight: bold;
-                    border: $p;
-                    width: 260px;
-                    margin-left: 12px;
-                    padding-top: 12px;
-                }
-                &__cont {
-                    display: flex;
-                    &__txt {
-                        font-family: $f;
-                        font-size: 0.88em;
+                border: $p;
+                display: flex;
+                justify-content: space-between;
+                &__half {
+                    width: 200px;
+                    &__title {
                         border: $p;
-                        margin-left: 13px;
-                        margin-top: 4px;
-                        width: 283px;
+                        display: flex;
+                        &__txt {
+                            font-family: $f;
+                            font-size: 1.1em;
+                            font-weight: bold;
+                            border: $p;
+                            width: 260px;
+                            margin-left: 12px;
+                            padding-top: 12px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
                     }
-                    &__prix {
-                        font-family: $f;
-                        font-size: 0.88em;
+                    &__cont {
+                        display: flex;
                         border: $p;
-                        margin-top: 4px;
-                        font-weight: bold;
+                        &__txt {
+                            font-family: $f;
+                            font-size: 0.88em;
+                            border: $p;
+                            margin-left: 13px;
+                            margin-top: 4px;
+                            width: 283px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+                        &__prix {
+                            font-family: $f;
+                            font-size: 0.88em;
+                            border: $p;
+                            margin-top: 4px;
+                            font-weight: bold;
+                        }
                     }
                 }
             }
