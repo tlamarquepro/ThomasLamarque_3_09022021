@@ -47,55 +47,70 @@
         opacity: 1;
     } 
 }
-
+.cont2__m__ent {
+    
+    &__1 {
+        animation: translat1 600ms ease-in-out, opac 1200ms ease-in-out;
+    }
+    &__2 {
+        animation: translat2 800ms ease-in-out, opac 1200ms ease-in-out;
+    }
+    &__3 {
+        animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
+    }
+}
 .cont2__m__pla {
     
-    &:hover > &__1 {
-        animation: translat1 400ms ease-in-out, opac 1200ms ease-in-out;
+    &__1 {
+        animation: translat1 600ms ease-in-out, opac 1200ms ease-in-out;
     }
-    &:hover > &__2 {
-        animation: translat2 600ms ease-in-out, opac 1200ms ease-in-out;
+    &__2 {
+        animation: translat2 800ms ease-in-out, opac 1200ms ease-in-out;
     }
-    &:hover > &__3 {
-        animation: translat3 800ms ease-in-out, opac 1200ms ease-in-out;
+    &__3 {
+        animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
     }
 }
 .cont2__m__des {
     
-    &:hover > &__1 {
-        animation: translat1 200ms ease-in-out, opac 1200ms ease-in-out;
+    &__1 {
+        animation: translat1 600ms ease-in-out, opac 1200ms ease-in-out;
     }
-    &:hover > &__2 {
-        animation: translat2 400ms ease-in-out, opac 1200ms ease-in-out;
+    &__2 {
+        animation: translat2 800ms ease-in-out, opac 1200ms ease-in-out;
     }
-    &:hover > &__3 {
-        animation: translat3 600ms ease-in-out, opac 1200ms ease-in-out;
+    &__3 {
+        animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
     }
-}
-@keyframes scaleft {
-    0% {
-        transform: scaleX(0);
-    }
-    100% {
-        transform: scaleX(1);
-    } 
 }
 .cont2 {
     &__m {
 
         &__ent__1, &__ent__2, &__ent__3, &__pla__1, &__pla__2, &__pla__3, &__des__1, &__des__2, &__des__3 {
             overflow: hidden;
-            &:hover > &__anim {
+            &__anim {
                 border: $p;
                 background-color: $clr-tertiary;
-                animation: scaleft 500ms ease-in-out;
-                transform-origin: 100% 50%;
-                border-top-left-radius: 20px;
-                border-bottom-left-radius: 20px;
-                width: 300px;
-                height: 100%;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                width: 0px;
+                transition: width 400ms, height 400ms;
+            }
+            &:hover > &__anim {
+                width: 16%;
+            }
+            &:hover > &__anim__checked .fas {
+                transform: rotate(360deg);
+            }
+            &__half {
+                width: 95%;
+                transition: width 400ms;
+            }
+            &:hover > &__half {
+                width: 84%;
             }
         } 
     }
 }
+
 

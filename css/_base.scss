@@ -187,7 +187,6 @@ a {
                 display: flex;
                 justify-content: space-between;
                 &__half {
-                    width: 200px;
                     &__title {
                         border: $p;
                         display: flex;
@@ -225,6 +224,15 @@ a {
                             margin-top: 4px;
                             font-weight: bold;
                         }
+                    }
+                }
+                &__anim {
+                    &__checked {
+                        margin-top: 20px;
+                        color: white;
+                        margin-left: 15px;
+                        font-size: 1.3em;
+                        transition: transform 400ms
                     }
                 }
             }
