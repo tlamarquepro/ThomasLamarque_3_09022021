@@ -123,6 +123,18 @@ a {
   border-radius: 25px;
 }
 
+.cont2__mlan {
+  width: 100%;
+  height: 1126px;
+  background-color: #f6f6f6;
+  position: absolute;
+  z-index: 2;
+  background-color: #f6f6f6;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 220px;
+}
+
 .cont2__m {
   width: 100%;
   height: 1038px;
@@ -206,22 +218,20 @@ a {
   margin-left: 18px;
 }
 
-.cont2__m__ent, .cont2__m__pla, .cont2__m__des {
-  border: 1px red solid;
+.cont2__m__entlan {
   width: 92.5%;
-  height: 232px;
+  height: 320px;
   margin: auto;
   margin-top: 20px;
 }
 
-.cont2__m__ent__1, .cont2__m__ent__2, .cont2__m__ent__3, .cont2__m__pla__1, .cont2__m__pla__2, .cont2__m__pla__3, .cont2__m__des__1, .cont2__m__des__2, .cont2__m__des__3 {
+.cont2__m__entlan__1, .cont2__m__entlan__2, .cont2__m__entlan__3, .cont2__m__entlan__3lan, .cont2__m__entlan__4 {
   width: 100%;
   height: 68px;
   background-color: white;
   border-radius: 15px;
   -webkit-box-shadow: 0px 5px 10px 0px #dadada;
           box-shadow: 0px 5px 10px 0px #dadada;
-  border: 1px red solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,18 +240,16 @@ a {
           justify-content: space-between;
 }
 
-.cont2__m__ent__1__half__title, .cont2__m__ent__2__half__title, .cont2__m__ent__3__half__title, .cont2__m__pla__1__half__title, .cont2__m__pla__2__half__title, .cont2__m__pla__3__half__title, .cont2__m__des__1__half__title, .cont2__m__des__2__half__title, .cont2__m__des__3__half__title {
-  border: 1px red solid;
+.cont2__m__entlan__1__half__title, .cont2__m__entlan__2__half__title, .cont2__m__entlan__3__half__title, .cont2__m__entlan__3lan__half__title, .cont2__m__entlan__4__half__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.cont2__m__ent__1__half__title__txt, .cont2__m__ent__2__half__title__txt, .cont2__m__ent__3__half__title__txt, .cont2__m__pla__1__half__title__txt, .cont2__m__pla__2__half__title__txt, .cont2__m__pla__3__half__title__txt, .cont2__m__des__1__half__title__txt, .cont2__m__des__2__half__title__txt, .cont2__m__des__3__half__title__txt {
+.cont2__m__entlan__1__half__title__txt, .cont2__m__entlan__2__half__title__txt, .cont2__m__entlan__3__half__title__txt, .cont2__m__entlan__3lan__half__title__txt, .cont2__m__entlan__4__half__title__txt {
   font-family: "Roboto";
   font-size: 1.1em;
   font-weight: bold;
-  border: 1px red solid;
   width: 260px;
   margin-left: 12px;
   padding-top: 12px;
@@ -250,17 +258,15 @@ a {
   white-space: nowrap;
 }
 
-.cont2__m__ent__1__half__cont, .cont2__m__ent__2__half__cont, .cont2__m__ent__3__half__cont, .cont2__m__pla__1__half__cont, .cont2__m__pla__2__half__cont, .cont2__m__pla__3__half__cont, .cont2__m__des__1__half__cont, .cont2__m__des__2__half__cont, .cont2__m__des__3__half__cont {
+.cont2__m__entlan__1__half__cont, .cont2__m__entlan__2__half__cont, .cont2__m__entlan__3__half__cont, .cont2__m__entlan__3lan__half__cont, .cont2__m__entlan__4__half__cont {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px red solid;
 }
 
-.cont2__m__ent__1__half__cont__txt, .cont2__m__ent__2__half__cont__txt, .cont2__m__ent__3__half__cont__txt, .cont2__m__pla__1__half__cont__txt, .cont2__m__pla__2__half__cont__txt, .cont2__m__pla__3__half__cont__txt, .cont2__m__des__1__half__cont__txt, .cont2__m__des__2__half__cont__txt, .cont2__m__des__3__half__cont__txt {
+.cont2__m__entlan__1__half__cont__txt, .cont2__m__entlan__2__half__cont__txt, .cont2__m__entlan__3__half__cont__txt, .cont2__m__entlan__3lan__half__cont__txt, .cont2__m__entlan__4__half__cont__txt {
   font-family: "Roboto";
   font-size: 0.88em;
-  border: 1px red solid;
   margin-left: 13px;
   margin-top: 4px;
   width: 283px;
@@ -269,26 +275,100 @@ a {
   white-space: nowrap;
 }
 
-.cont2__m__ent__1__half__cont__prix, .cont2__m__ent__2__half__cont__prix, .cont2__m__ent__3__half__cont__prix, .cont2__m__pla__1__half__cont__prix, .cont2__m__pla__2__half__cont__prix, .cont2__m__pla__3__half__cont__prix, .cont2__m__des__1__half__cont__prix, .cont2__m__des__2__half__cont__prix, .cont2__m__des__3__half__cont__prix {
+.cont2__m__entlan__1__half__cont__prix, .cont2__m__entlan__2__half__cont__prix, .cont2__m__entlan__3__half__cont__prix, .cont2__m__entlan__3lan__half__cont__prix, .cont2__m__entlan__4__half__cont__prix {
   font-family: "Roboto";
   font-size: 0.88em;
-  border: 1px red solid;
   margin-top: 4px;
   font-weight: bold;
+  margin-right: 6px;
 }
 
-.cont2__m__ent__1__anim__checked, .cont2__m__ent__2__anim__checked, .cont2__m__ent__3__anim__checked, .cont2__m__pla__1__anim__checked, .cont2__m__pla__2__anim__checked, .cont2__m__pla__3__anim__checked, .cont2__m__des__1__anim__checked, .cont2__m__des__2__anim__checked, .cont2__m__des__3__anim__checked {
-  margin-top: 20px;
+.cont2__m__entlan__1__anim__checked, .cont2__m__entlan__2__anim__checked, .cont2__m__entlan__3__anim__checked, .cont2__m__entlan__3lan__anim__checked, .cont2__m__entlan__4__anim__checked {
+  margin-top: 22px;
   color: white;
-  margin-left: 15px;
-  font-size: 1.3em;
-  -webkit-transition: -webkit-transform 400ms;
-  transition: -webkit-transform 400ms;
-  transition: transform 400ms;
-  transition: transform 400ms, -webkit-transform 400ms;
+  margin-left: 18px;
+  font-size: 1.35em;
+  display: inline-block;
 }
 
-.cont2__m__ent__1, .cont2__m__ent__2, .cont2__m__pla__1, .cont2__m__pla__2, .cont2__m__des__1, .cont2__m__des__2 {
+.cont2__m__entlan__1, .cont2__m__entlan__2, .cont2__m__entlan__3lan {
+  margin-bottom: 13px;
+}
+
+.cont2__m__ent, .cont2__m__pla, .cont2__m__des {
+  width: 92.5%;
+  height: 232px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.cont2__m__ent__1, .cont2__m__ent__2, .cont2__m__ent__3, .cont2__m__ent__3lan, .cont2__m__ent__4, .cont2__m__pla__1, .cont2__m__pla__2, .cont2__m__pla__3, .cont2__m__pla__3lan, .cont2__m__pla__4, .cont2__m__des__1, .cont2__m__des__2, .cont2__m__des__3, .cont2__m__des__3lan, .cont2__m__des__4 {
+  width: 100%;
+  height: 68px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 10px 0px #dadada;
+          box-shadow: 0px 5px 10px 0px #dadada;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cont2__m__ent__1__half__title, .cont2__m__ent__2__half__title, .cont2__m__ent__3__half__title, .cont2__m__ent__3lan__half__title, .cont2__m__ent__4__half__title, .cont2__m__pla__1__half__title, .cont2__m__pla__2__half__title, .cont2__m__pla__3__half__title, .cont2__m__pla__3lan__half__title, .cont2__m__pla__4__half__title, .cont2__m__des__1__half__title, .cont2__m__des__2__half__title, .cont2__m__des__3__half__title, .cont2__m__des__3lan__half__title, .cont2__m__des__4__half__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cont2__m__ent__1__half__title__txt, .cont2__m__ent__2__half__title__txt, .cont2__m__ent__3__half__title__txt, .cont2__m__ent__3lan__half__title__txt, .cont2__m__ent__4__half__title__txt, .cont2__m__pla__1__half__title__txt, .cont2__m__pla__2__half__title__txt, .cont2__m__pla__3__half__title__txt, .cont2__m__pla__3lan__half__title__txt, .cont2__m__pla__4__half__title__txt, .cont2__m__des__1__half__title__txt, .cont2__m__des__2__half__title__txt, .cont2__m__des__3__half__title__txt, .cont2__m__des__3lan__half__title__txt, .cont2__m__des__4__half__title__txt {
+  font-family: "Roboto";
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 260px;
+  margin-left: 12px;
+  padding-top: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cont2__m__ent__1__half__cont, .cont2__m__ent__2__half__cont, .cont2__m__ent__3__half__cont, .cont2__m__ent__3lan__half__cont, .cont2__m__ent__4__half__cont, .cont2__m__pla__1__half__cont, .cont2__m__pla__2__half__cont, .cont2__m__pla__3__half__cont, .cont2__m__pla__3lan__half__cont, .cont2__m__pla__4__half__cont, .cont2__m__des__1__half__cont, .cont2__m__des__2__half__cont, .cont2__m__des__3__half__cont, .cont2__m__des__3lan__half__cont, .cont2__m__des__4__half__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cont2__m__ent__1__half__cont__txt, .cont2__m__ent__2__half__cont__txt, .cont2__m__ent__3__half__cont__txt, .cont2__m__ent__3lan__half__cont__txt, .cont2__m__ent__4__half__cont__txt, .cont2__m__pla__1__half__cont__txt, .cont2__m__pla__2__half__cont__txt, .cont2__m__pla__3__half__cont__txt, .cont2__m__pla__3lan__half__cont__txt, .cont2__m__pla__4__half__cont__txt, .cont2__m__des__1__half__cont__txt, .cont2__m__des__2__half__cont__txt, .cont2__m__des__3__half__cont__txt, .cont2__m__des__3lan__half__cont__txt, .cont2__m__des__4__half__cont__txt {
+  font-family: "Roboto";
+  font-size: 0.88em;
+  margin-left: 13px;
+  margin-top: 4px;
+  width: 283px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cont2__m__ent__1__half__cont__prix, .cont2__m__ent__2__half__cont__prix, .cont2__m__ent__3__half__cont__prix, .cont2__m__ent__3lan__half__cont__prix, .cont2__m__ent__4__half__cont__prix, .cont2__m__pla__1__half__cont__prix, .cont2__m__pla__2__half__cont__prix, .cont2__m__pla__3__half__cont__prix, .cont2__m__pla__3lan__half__cont__prix, .cont2__m__pla__4__half__cont__prix, .cont2__m__des__1__half__cont__prix, .cont2__m__des__2__half__cont__prix, .cont2__m__des__3__half__cont__prix, .cont2__m__des__3lan__half__cont__prix, .cont2__m__des__4__half__cont__prix {
+  font-family: "Roboto";
+  font-size: 0.88em;
+  margin-top: 4px;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.cont2__m__ent__1__anim__checked, .cont2__m__ent__2__anim__checked, .cont2__m__ent__3__anim__checked, .cont2__m__ent__3lan__anim__checked, .cont2__m__ent__4__anim__checked, .cont2__m__pla__1__anim__checked, .cont2__m__pla__2__anim__checked, .cont2__m__pla__3__anim__checked, .cont2__m__pla__3lan__anim__checked, .cont2__m__pla__4__anim__checked, .cont2__m__des__1__anim__checked, .cont2__m__des__2__anim__checked, .cont2__m__des__3__anim__checked, .cont2__m__des__3lan__anim__checked, .cont2__m__des__4__anim__checked {
+  margin-top: 22px;
+  color: white;
+  margin-left: 18px;
+  font-size: 1.35em;
+  display: inline-block;
+}
+
+.cont2__m__ent__1, .cont2__m__ent__2, .cont2__m__ent__3lan, .cont2__m__pla__1, .cont2__m__pla__2, .cont2__m__pla__3lan, .cont2__m__des__1, .cont2__m__des__2, .cont2__m__des__3lan {
   margin-bottom: 13px;
 }
 
@@ -378,6 +458,15 @@ a {
   position: absolute;
   z-index: 3;
   margin-top: 1002px;
+}
+
+.cont3__mlan {
+  width: 100%;
+  height: 124px;
+  background-color: #f6f6f6;
+  position: absolute;
+  z-index: 3;
+  margin-top: 1090px;
 }
 
 .cont4 {
@@ -486,10 +575,10 @@ a {
 }
 
 .cont4__cont_rest__rest1__desc__cont2, .cont4__cont_rest__rest2__desc__cont2, .cont4__cont_rest__rest3__desc__cont2, .cont4__cont_rest__rest4__desc__cont2 {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   margin-top: 20px;
-  margin-left: 124px;
+  margin-left: 37%;
   position: relative;
 }
 
@@ -497,6 +586,7 @@ a {
   position: absolute;
   width: 20px;
   height: 20px;
+  padding: 2px 2px 2px 2px;
   font-size: 1.3em;
   color: black;
   z-index: 1;
@@ -509,6 +599,7 @@ a {
   background: linear-gradient(to bottom left, #9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 2px 2px 2px 2px;
 }
 
 .cont4__cont_rest__rest1__desc__cont2:hover .cont4__cont_rest__rest1__desc__cont2__ico2, .cont4__cont_rest__rest2__desc__cont2:hover .cont4__cont_rest__rest1__desc__cont2__ico2, .cont4__cont_rest__rest3__desc__cont2:hover .cont4__cont_rest__rest1__desc__cont2__ico2, .cont4__cont_rest__rest4__desc__cont2:hover .cont4__cont_rest__rest1__desc__cont2__ico2, .cont4__cont_rest__rest1__desc__cont2:hover .cont4__cont_rest__rest2__desc__cont2__ico2, .cont4__cont_rest__rest2__desc__cont2:hover .cont4__cont_rest__rest2__desc__cont2__ico2, .cont4__cont_rest__rest3__desc__cont2:hover .cont4__cont_rest__rest2__desc__cont2__ico2, .cont4__cont_rest__rest4__desc__cont2:hover .cont4__cont_rest__rest2__desc__cont2__ico2, .cont4__cont_rest__rest1__desc__cont2:hover .cont4__cont_rest__rest3__desc__cont2__ico2, .cont4__cont_rest__rest2__desc__cont2:hover .cont4__cont_rest__rest3__desc__cont2__ico2, .cont4__cont_rest__rest3__desc__cont2:hover .cont4__cont_rest__rest3__desc__cont2__ico2, .cont4__cont_rest__rest4__desc__cont2:hover .cont4__cont_rest__rest3__desc__cont2__ico2, .cont4__cont_rest__rest1__desc__cont2:hover .cont4__cont_rest__rest4__desc__cont2__ico2, .cont4__cont_rest__rest2__desc__cont2:hover .cont4__cont_rest__rest4__desc__cont2__ico2, .cont4__cont_rest__rest3__desc__cont2:hover .cont4__cont_rest__rest4__desc__cont2__ico2, .cont4__cont_rest__rest4__desc__cont2:hover .cont4__cont_rest__rest4__desc__cont2__ico2 {
@@ -656,6 +747,76 @@ a {
   font-family: "Roboto";
 }
 
+.footermlan {
+  width: 100%;
+  height: 197px;
+  background-color: #353535;
+  padding-top: 1px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 1214px;
+}
+
+.footermlan__cont {
+  width: 87%;
+  margin: auto;
+}
+
+.footermlan__cont__logo {
+  width: 100px;
+  height: 14px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.footermlan__cont__logo__img {
+  background-color: #353535;
+  width: 100px;
+  height: 14px;
+}
+
+.footermlan__cont__cont1, .footermlan__cont__cont2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footermlan__cont__cont1__log1, .footermlan__cont__cont2__log1 {
+  color: white;
+  font-size: 12px;
+  margin-right: 11px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.footermlan__cont__cont1__log2, .footermlan__cont__cont2__log2 {
+  color: white;
+  font-size: 10px;
+  margin-right: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.footermlan__cont__cont1__prop, .footermlan__cont__cont1__dev, .footermlan__cont__cont2__prop, .footermlan__cont__cont2__dev {
+  color: white;
+  font-family: "Roboto";
+}
+
+.footermlan__cont__cont3 {
+  color: white;
+  font-family: "Roboto";
+  margin-bottom: 8px;
+}
+
+.footermlan__cont__cont4 {
+  color: white;
+  font-family: "Roboto";
+}
+
+.f1 {
+  margin-bottom: 6px;
+}
+
 @media all and (min-width: 800px) {
   #bloc_page {
     margin: 0 100px;
@@ -786,19 +947,51 @@ a {
   }
 }
 
-.cont2__m__ent__1 {
+@-webkit-keyframes turn {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes turn {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.cont2__m__ent__1, .cont2__m__entlan__1 {
   -webkit-animation: translat1 600ms ease-in-out, opac 1200ms ease-in-out;
           animation: translat1 600ms ease-in-out, opac 1200ms ease-in-out;
 }
 
-.cont2__m__ent__2 {
+.cont2__m__ent__2, .cont2__m__entlan__2 {
   -webkit-animation: translat2 800ms ease-in-out, opac 1200ms ease-in-out;
           animation: translat2 800ms ease-in-out, opac 1200ms ease-in-out;
 }
 
-.cont2__m__ent__3 {
+.cont2__m__ent__3, .cont2__m__entlan__3 {
   -webkit-animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
           animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
+}
+
+.cont2__m__ent__3lan, .cont2__m__entlan__3lan {
+  -webkit-animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
+          animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
+}
+
+.cont2__m__ent__4, .cont2__m__entlan__4 {
+  -webkit-animation: translat3 1200ms ease-in-out, opac 1200ms ease-in-out;
+          animation: translat3 1200ms ease-in-out, opac 1200ms ease-in-out;
 }
 
 .cont2__m__pla__1 {
@@ -831,37 +1024,36 @@ a {
           animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
 }
 
-.cont2__m__ent__1, .cont2__m__ent__2, .cont2__m__ent__3, .cont2__m__pla__1, .cont2__m__pla__2, .cont2__m__pla__3, .cont2__m__des__1, .cont2__m__des__2, .cont2__m__des__3 {
+.cont2__m__ent__1, .cont2__m__ent__2, .cont2__m__ent__3, .cont2__m__ent__3lan, .cont2__m__ent__4, .cont2__m__pla__1, .cont2__m__pla__2, .cont2__m__pla__3, .cont2__m__des__1, .cont2__m__des__2, .cont2__m__des__3, .cont2__m__entlan__1, .cont2__m__entlan__2, .cont2__m__entlan__3lan, .cont2__m__entlan__4 {
   overflow: hidden;
 }
 
-.cont2__m__ent__1__anim, .cont2__m__ent__2__anim, .cont2__m__ent__3__anim, .cont2__m__pla__1__anim, .cont2__m__pla__2__anim, .cont2__m__pla__3__anim, .cont2__m__des__1__anim, .cont2__m__des__2__anim, .cont2__m__des__3__anim {
-  border: 1px red solid;
+.cont2__m__ent__1__anim, .cont2__m__ent__2__anim, .cont2__m__ent__3__anim, .cont2__m__ent__3lan__anim, .cont2__m__ent__4__anim, .cont2__m__pla__1__anim, .cont2__m__pla__2__anim, .cont2__m__pla__3__anim, .cont2__m__des__1__anim, .cont2__m__des__2__anim, .cont2__m__des__3__anim, .cont2__m__entlan__1__anim, .cont2__m__entlan__2__anim, .cont2__m__entlan__3lan__anim, .cont2__m__entlan__4__anim {
   background-color: #99E2D0;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   width: 0px;
   -webkit-transition: width 400ms, height 400ms;
   transition: width 400ms, height 400ms;
 }
 
-.cont2__m__ent__1:hover > .cont2__m__ent__1__anim, .cont2__m__ent__2:hover > .cont2__m__ent__1__anim, .cont2__m__ent__3:hover > .cont2__m__ent__1__anim, .cont2__m__pla__1:hover > .cont2__m__ent__1__anim, .cont2__m__pla__2:hover > .cont2__m__ent__1__anim, .cont2__m__pla__3:hover > .cont2__m__ent__1__anim, .cont2__m__des__1:hover > .cont2__m__ent__1__anim, .cont2__m__des__2:hover > .cont2__m__ent__1__anim, .cont2__m__des__3:hover > .cont2__m__ent__1__anim, .cont2__m__ent__1:hover > .cont2__m__ent__2__anim, .cont2__m__ent__2:hover > .cont2__m__ent__2__anim, .cont2__m__ent__3:hover > .cont2__m__ent__2__anim, .cont2__m__pla__1:hover > .cont2__m__ent__2__anim, .cont2__m__pla__2:hover > .cont2__m__ent__2__anim, .cont2__m__pla__3:hover > .cont2__m__ent__2__anim, .cont2__m__des__1:hover > .cont2__m__ent__2__anim, .cont2__m__des__2:hover > .cont2__m__ent__2__anim, .cont2__m__des__3:hover > .cont2__m__ent__2__anim, .cont2__m__ent__1:hover > .cont2__m__ent__3__anim, .cont2__m__ent__2:hover > .cont2__m__ent__3__anim, .cont2__m__ent__3:hover > .cont2__m__ent__3__anim, .cont2__m__pla__1:hover > .cont2__m__ent__3__anim, .cont2__m__pla__2:hover > .cont2__m__ent__3__anim, .cont2__m__pla__3:hover > .cont2__m__ent__3__anim, .cont2__m__des__1:hover > .cont2__m__ent__3__anim, .cont2__m__des__2:hover > .cont2__m__ent__3__anim, .cont2__m__des__3:hover > .cont2__m__ent__3__anim, .cont2__m__ent__1:hover > .cont2__m__pla__1__anim, .cont2__m__ent__2:hover > .cont2__m__pla__1__anim, .cont2__m__ent__3:hover > .cont2__m__pla__1__anim, .cont2__m__pla__1:hover > .cont2__m__pla__1__anim, .cont2__m__pla__2:hover > .cont2__m__pla__1__anim, .cont2__m__pla__3:hover > .cont2__m__pla__1__anim, .cont2__m__des__1:hover > .cont2__m__pla__1__anim, .cont2__m__des__2:hover > .cont2__m__pla__1__anim, .cont2__m__des__3:hover > .cont2__m__pla__1__anim, .cont2__m__ent__1:hover > .cont2__m__pla__2__anim, .cont2__m__ent__2:hover > .cont2__m__pla__2__anim, .cont2__m__ent__3:hover > .cont2__m__pla__2__anim, .cont2__m__pla__1:hover > .cont2__m__pla__2__anim, .cont2__m__pla__2:hover > .cont2__m__pla__2__anim, .cont2__m__pla__3:hover > .cont2__m__pla__2__anim, .cont2__m__des__1:hover > .cont2__m__pla__2__anim, .cont2__m__des__2:hover > .cont2__m__pla__2__anim, .cont2__m__des__3:hover > .cont2__m__pla__2__anim, .cont2__m__ent__1:hover > .cont2__m__pla__3__anim, .cont2__m__ent__2:hover > .cont2__m__pla__3__anim, .cont2__m__ent__3:hover > .cont2__m__pla__3__anim, .cont2__m__pla__1:hover > .cont2__m__pla__3__anim, .cont2__m__pla__2:hover > .cont2__m__pla__3__anim, .cont2__m__pla__3:hover > .cont2__m__pla__3__anim, .cont2__m__des__1:hover > .cont2__m__pla__3__anim, .cont2__m__des__2:hover > .cont2__m__pla__3__anim, .cont2__m__des__3:hover > .cont2__m__pla__3__anim, .cont2__m__ent__1:hover > .cont2__m__des__1__anim, .cont2__m__ent__2:hover > .cont2__m__des__1__anim, .cont2__m__ent__3:hover > .cont2__m__des__1__anim, .cont2__m__pla__1:hover > .cont2__m__des__1__anim, .cont2__m__pla__2:hover > .cont2__m__des__1__anim, .cont2__m__pla__3:hover > .cont2__m__des__1__anim, .cont2__m__des__1:hover > .cont2__m__des__1__anim, .cont2__m__des__2:hover > .cont2__m__des__1__anim, .cont2__m__des__3:hover > .cont2__m__des__1__anim, .cont2__m__ent__1:hover > .cont2__m__des__2__anim, .cont2__m__ent__2:hover > .cont2__m__des__2__anim, .cont2__m__ent__3:hover > .cont2__m__des__2__anim, .cont2__m__pla__1:hover > .cont2__m__des__2__anim, .cont2__m__pla__2:hover > .cont2__m__des__2__anim, .cont2__m__pla__3:hover > .cont2__m__des__2__anim, .cont2__m__des__1:hover > .cont2__m__des__2__anim, .cont2__m__des__2:hover > .cont2__m__des__2__anim, .cont2__m__des__3:hover > .cont2__m__des__2__anim, .cont2__m__ent__1:hover > .cont2__m__des__3__anim, .cont2__m__ent__2:hover > .cont2__m__des__3__anim, .cont2__m__ent__3:hover > .cont2__m__des__3__anim, .cont2__m__pla__1:hover > .cont2__m__des__3__anim, .cont2__m__pla__2:hover > .cont2__m__des__3__anim, .cont2__m__pla__3:hover > .cont2__m__des__3__anim, .cont2__m__des__1:hover > .cont2__m__des__3__anim, .cont2__m__des__2:hover > .cont2__m__des__3__anim, .cont2__m__des__3:hover > .cont2__m__des__3__anim {
-  width: 16%;
+.cont2__m__ent__1:hover > .cont2__m__ent__1__anim, .cont2__m__ent__2:hover > .cont2__m__ent__1__anim, .cont2__m__ent__3:hover > .cont2__m__ent__1__anim, .cont2__m__ent__3lan:hover > .cont2__m__ent__1__anim, .cont2__m__ent__4:hover > .cont2__m__ent__1__anim, .cont2__m__pla__1:hover > .cont2__m__ent__1__anim, .cont2__m__pla__2:hover > .cont2__m__ent__1__anim, .cont2__m__pla__3:hover > .cont2__m__ent__1__anim, .cont2__m__des__1:hover > .cont2__m__ent__1__anim, .cont2__m__des__2:hover > .cont2__m__ent__1__anim, .cont2__m__des__3:hover > .cont2__m__ent__1__anim, .cont2__m__entlan__1:hover > .cont2__m__ent__1__anim, .cont2__m__entlan__2:hover > .cont2__m__ent__1__anim, .cont2__m__entlan__3lan:hover > .cont2__m__ent__1__anim, .cont2__m__entlan__4:hover > .cont2__m__ent__1__anim, .cont2__m__ent__1:hover > .cont2__m__ent__2__anim, .cont2__m__ent__2:hover > .cont2__m__ent__2__anim, .cont2__m__ent__3:hover > .cont2__m__ent__2__anim, .cont2__m__ent__3lan:hover > .cont2__m__ent__2__anim, .cont2__m__ent__4:hover > .cont2__m__ent__2__anim, .cont2__m__pla__1:hover > .cont2__m__ent__2__anim, .cont2__m__pla__2:hover > .cont2__m__ent__2__anim, .cont2__m__pla__3:hover > .cont2__m__ent__2__anim, .cont2__m__des__1:hover > .cont2__m__ent__2__anim, .cont2__m__des__2:hover > .cont2__m__ent__2__anim, .cont2__m__des__3:hover > .cont2__m__ent__2__anim, .cont2__m__entlan__1:hover > .cont2__m__ent__2__anim, .cont2__m__entlan__2:hover > .cont2__m__ent__2__anim, .cont2__m__entlan__3lan:hover > .cont2__m__ent__2__anim, .cont2__m__entlan__4:hover > .cont2__m__ent__2__anim, .cont2__m__ent__1:hover > .cont2__m__ent__3__anim, .cont2__m__ent__2:hover > .cont2__m__ent__3__anim, .cont2__m__ent__3:hover > .cont2__m__ent__3__anim, .cont2__m__ent__3lan:hover > .cont2__m__ent__3__anim, .cont2__m__ent__4:hover > .cont2__m__ent__3__anim, .cont2__m__pla__1:hover > .cont2__m__ent__3__anim, .cont2__m__pla__2:hover > .cont2__m__ent__3__anim, .cont2__m__pla__3:hover > .cont2__m__ent__3__anim, .cont2__m__des__1:hover > .cont2__m__ent__3__anim, .cont2__m__des__2:hover > .cont2__m__ent__3__anim, .cont2__m__des__3:hover > .cont2__m__ent__3__anim, .cont2__m__entlan__1:hover > .cont2__m__ent__3__anim, .cont2__m__entlan__2:hover > .cont2__m__ent__3__anim, .cont2__m__entlan__3lan:hover > .cont2__m__ent__3__anim, .cont2__m__entlan__4:hover > .cont2__m__ent__3__anim, .cont2__m__ent__1:hover > .cont2__m__ent__3lan__anim, .cont2__m__ent__2:hover > .cont2__m__ent__3lan__anim, .cont2__m__ent__3:hover > .cont2__m__ent__3lan__anim, .cont2__m__ent__3lan:hover > .cont2__m__ent__3lan__anim, .cont2__m__ent__4:hover > .cont2__m__ent__3lan__anim, .cont2__m__pla__1:hover > .cont2__m__ent__3lan__anim, .cont2__m__pla__2:hover > .cont2__m__ent__3lan__anim, .cont2__m__pla__3:hover > .cont2__m__ent__3lan__anim, .cont2__m__des__1:hover > .cont2__m__ent__3lan__anim, .cont2__m__des__2:hover > .cont2__m__ent__3lan__anim, .cont2__m__des__3:hover > .cont2__m__ent__3lan__anim, .cont2__m__entlan__1:hover > .cont2__m__ent__3lan__anim, .cont2__m__entlan__2:hover > .cont2__m__ent__3lan__anim, .cont2__m__entlan__3lan:hover > .cont2__m__ent__3lan__anim, .cont2__m__entlan__4:hover > .cont2__m__ent__3lan__anim, .cont2__m__ent__1:hover > .cont2__m__ent__4__anim, .cont2__m__ent__2:hover > .cont2__m__ent__4__anim, .cont2__m__ent__3:hover > .cont2__m__ent__4__anim, .cont2__m__ent__3lan:hover > .cont2__m__ent__4__anim, .cont2__m__ent__4:hover > .cont2__m__ent__4__anim, .cont2__m__pla__1:hover > .cont2__m__ent__4__anim, .cont2__m__pla__2:hover > .cont2__m__ent__4__anim, .cont2__m__pla__3:hover > .cont2__m__ent__4__anim, .cont2__m__des__1:hover > .cont2__m__ent__4__anim, .cont2__m__des__2:hover > .cont2__m__ent__4__anim, .cont2__m__des__3:hover > .cont2__m__ent__4__anim, .cont2__m__entlan__1:hover > .cont2__m__ent__4__anim, .cont2__m__entlan__2:hover > .cont2__m__ent__4__anim, .cont2__m__entlan__3lan:hover > .cont2__m__ent__4__anim, .cont2__m__entlan__4:hover > .cont2__m__ent__4__anim, .cont2__m__ent__1:hover > .cont2__m__pla__1__anim, .cont2__m__ent__2:hover > .cont2__m__pla__1__anim, .cont2__m__ent__3:hover > .cont2__m__pla__1__anim, .cont2__m__ent__3lan:hover > .cont2__m__pla__1__anim, .cont2__m__ent__4:hover > .cont2__m__pla__1__anim, .cont2__m__pla__1:hover > .cont2__m__pla__1__anim, .cont2__m__pla__2:hover > .cont2__m__pla__1__anim, .cont2__m__pla__3:hover > .cont2__m__pla__1__anim, .cont2__m__des__1:hover > .cont2__m__pla__1__anim, .cont2__m__des__2:hover > .cont2__m__pla__1__anim, .cont2__m__des__3:hover > .cont2__m__pla__1__anim, .cont2__m__entlan__1:hover > .cont2__m__pla__1__anim, .cont2__m__entlan__2:hover > .cont2__m__pla__1__anim, .cont2__m__entlan__3lan:hover > .cont2__m__pla__1__anim, .cont2__m__entlan__4:hover > .cont2__m__pla__1__anim, .cont2__m__ent__1:hover > .cont2__m__pla__2__anim, .cont2__m__ent__2:hover > .cont2__m__pla__2__anim, .cont2__m__ent__3:hover > .cont2__m__pla__2__anim, .cont2__m__ent__3lan:hover > .cont2__m__pla__2__anim, .cont2__m__ent__4:hover > .cont2__m__pla__2__anim, .cont2__m__pla__1:hover > .cont2__m__pla__2__anim, .cont2__m__pla__2:hover > .cont2__m__pla__2__anim, .cont2__m__pla__3:hover > .cont2__m__pla__2__anim, .cont2__m__des__1:hover > .cont2__m__pla__2__anim, .cont2__m__des__2:hover > .cont2__m__pla__2__anim, .cont2__m__des__3:hover > .cont2__m__pla__2__anim, .cont2__m__entlan__1:hover > .cont2__m__pla__2__anim, .cont2__m__entlan__2:hover > .cont2__m__pla__2__anim, .cont2__m__entlan__3lan:hover > .cont2__m__pla__2__anim, .cont2__m__entlan__4:hover > .cont2__m__pla__2__anim, .cont2__m__ent__1:hover > .cont2__m__pla__3__anim, .cont2__m__ent__2:hover > .cont2__m__pla__3__anim, .cont2__m__ent__3:hover > .cont2__m__pla__3__anim, .cont2__m__ent__3lan:hover > .cont2__m__pla__3__anim, .cont2__m__ent__4:hover > .cont2__m__pla__3__anim, .cont2__m__pla__1:hover > .cont2__m__pla__3__anim, .cont2__m__pla__2:hover > .cont2__m__pla__3__anim, .cont2__m__pla__3:hover > .cont2__m__pla__3__anim, .cont2__m__des__1:hover > .cont2__m__pla__3__anim, .cont2__m__des__2:hover > .cont2__m__pla__3__anim, .cont2__m__des__3:hover > .cont2__m__pla__3__anim, .cont2__m__entlan__1:hover > .cont2__m__pla__3__anim, .cont2__m__entlan__2:hover > .cont2__m__pla__3__anim, .cont2__m__entlan__3lan:hover > .cont2__m__pla__3__anim, .cont2__m__entlan__4:hover > .cont2__m__pla__3__anim, .cont2__m__ent__1:hover > .cont2__m__des__1__anim, .cont2__m__ent__2:hover > .cont2__m__des__1__anim, .cont2__m__ent__3:hover > .cont2__m__des__1__anim, .cont2__m__ent__3lan:hover > .cont2__m__des__1__anim, .cont2__m__ent__4:hover > .cont2__m__des__1__anim, .cont2__m__pla__1:hover > .cont2__m__des__1__anim, .cont2__m__pla__2:hover > .cont2__m__des__1__anim, .cont2__m__pla__3:hover > .cont2__m__des__1__anim, .cont2__m__des__1:hover > .cont2__m__des__1__anim, .cont2__m__des__2:hover > .cont2__m__des__1__anim, .cont2__m__des__3:hover > .cont2__m__des__1__anim, .cont2__m__entlan__1:hover > .cont2__m__des__1__anim, .cont2__m__entlan__2:hover > .cont2__m__des__1__anim, .cont2__m__entlan__3lan:hover > .cont2__m__des__1__anim, .cont2__m__entlan__4:hover > .cont2__m__des__1__anim, .cont2__m__ent__1:hover > .cont2__m__des__2__anim, .cont2__m__ent__2:hover > .cont2__m__des__2__anim, .cont2__m__ent__3:hover > .cont2__m__des__2__anim, .cont2__m__ent__3lan:hover > .cont2__m__des__2__anim, .cont2__m__ent__4:hover > .cont2__m__des__2__anim, .cont2__m__pla__1:hover > .cont2__m__des__2__anim, .cont2__m__pla__2:hover > .cont2__m__des__2__anim, .cont2__m__pla__3:hover > .cont2__m__des__2__anim, .cont2__m__des__1:hover > .cont2__m__des__2__anim, .cont2__m__des__2:hover > .cont2__m__des__2__anim, .cont2__m__des__3:hover > .cont2__m__des__2__anim, .cont2__m__entlan__1:hover > .cont2__m__des__2__anim, .cont2__m__entlan__2:hover > .cont2__m__des__2__anim, .cont2__m__entlan__3lan:hover > .cont2__m__des__2__anim, .cont2__m__entlan__4:hover > .cont2__m__des__2__anim, .cont2__m__ent__1:hover > .cont2__m__des__3__anim, .cont2__m__ent__2:hover > .cont2__m__des__3__anim, .cont2__m__ent__3:hover > .cont2__m__des__3__anim, .cont2__m__ent__3lan:hover > .cont2__m__des__3__anim, .cont2__m__ent__4:hover > .cont2__m__des__3__anim, .cont2__m__pla__1:hover > .cont2__m__des__3__anim, .cont2__m__pla__2:hover > .cont2__m__des__3__anim, .cont2__m__pla__3:hover > .cont2__m__des__3__anim, .cont2__m__des__1:hover > .cont2__m__des__3__anim, .cont2__m__des__2:hover > .cont2__m__des__3__anim, .cont2__m__des__3:hover > .cont2__m__des__3__anim, .cont2__m__entlan__1:hover > .cont2__m__des__3__anim, .cont2__m__entlan__2:hover > .cont2__m__des__3__anim, .cont2__m__entlan__3lan:hover > .cont2__m__des__3__anim, .cont2__m__entlan__4:hover > .cont2__m__des__3__anim, .cont2__m__ent__1:hover > .cont2__m__entlan__1__anim, .cont2__m__ent__2:hover > .cont2__m__entlan__1__anim, .cont2__m__ent__3:hover > .cont2__m__entlan__1__anim, .cont2__m__ent__3lan:hover > .cont2__m__entlan__1__anim, .cont2__m__ent__4:hover > .cont2__m__entlan__1__anim, .cont2__m__pla__1:hover > .cont2__m__entlan__1__anim, .cont2__m__pla__2:hover > .cont2__m__entlan__1__anim, .cont2__m__pla__3:hover > .cont2__m__entlan__1__anim, .cont2__m__des__1:hover > .cont2__m__entlan__1__anim, .cont2__m__des__2:hover > .cont2__m__entlan__1__anim, .cont2__m__des__3:hover > .cont2__m__entlan__1__anim, .cont2__m__entlan__1:hover > .cont2__m__entlan__1__anim, .cont2__m__entlan__2:hover > .cont2__m__entlan__1__anim, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__1__anim, .cont2__m__entlan__4:hover > .cont2__m__entlan__1__anim, .cont2__m__ent__1:hover > .cont2__m__entlan__2__anim, .cont2__m__ent__2:hover > .cont2__m__entlan__2__anim, .cont2__m__ent__3:hover > .cont2__m__entlan__2__anim, .cont2__m__ent__3lan:hover > .cont2__m__entlan__2__anim, .cont2__m__ent__4:hover > .cont2__m__entlan__2__anim, .cont2__m__pla__1:hover > .cont2__m__entlan__2__anim, .cont2__m__pla__2:hover > .cont2__m__entlan__2__anim, .cont2__m__pla__3:hover > .cont2__m__entlan__2__anim, .cont2__m__des__1:hover > .cont2__m__entlan__2__anim, .cont2__m__des__2:hover > .cont2__m__entlan__2__anim, .cont2__m__des__3:hover > .cont2__m__entlan__2__anim, .cont2__m__entlan__1:hover > .cont2__m__entlan__2__anim, .cont2__m__entlan__2:hover > .cont2__m__entlan__2__anim, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__2__anim, .cont2__m__entlan__4:hover > .cont2__m__entlan__2__anim, .cont2__m__ent__1:hover > .cont2__m__entlan__3lan__anim, .cont2__m__ent__2:hover > .cont2__m__entlan__3lan__anim, .cont2__m__ent__3:hover > .cont2__m__entlan__3lan__anim, .cont2__m__ent__3lan:hover > .cont2__m__entlan__3lan__anim, .cont2__m__ent__4:hover > .cont2__m__entlan__3lan__anim, .cont2__m__pla__1:hover > .cont2__m__entlan__3lan__anim, .cont2__m__pla__2:hover > .cont2__m__entlan__3lan__anim, .cont2__m__pla__3:hover > .cont2__m__entlan__3lan__anim, .cont2__m__des__1:hover > .cont2__m__entlan__3lan__anim, .cont2__m__des__2:hover > .cont2__m__entlan__3lan__anim, .cont2__m__des__3:hover > .cont2__m__entlan__3lan__anim, .cont2__m__entlan__1:hover > .cont2__m__entlan__3lan__anim, .cont2__m__entlan__2:hover > .cont2__m__entlan__3lan__anim, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__3lan__anim, .cont2__m__entlan__4:hover > .cont2__m__entlan__3lan__anim, .cont2__m__ent__1:hover > .cont2__m__entlan__4__anim, .cont2__m__ent__2:hover > .cont2__m__entlan__4__anim, .cont2__m__ent__3:hover > .cont2__m__entlan__4__anim, .cont2__m__ent__3lan:hover > .cont2__m__entlan__4__anim, .cont2__m__ent__4:hover > .cont2__m__entlan__4__anim, .cont2__m__pla__1:hover > .cont2__m__entlan__4__anim, .cont2__m__pla__2:hover > .cont2__m__entlan__4__anim, .cont2__m__pla__3:hover > .cont2__m__entlan__4__anim, .cont2__m__des__1:hover > .cont2__m__entlan__4__anim, .cont2__m__des__2:hover > .cont2__m__entlan__4__anim, .cont2__m__des__3:hover > .cont2__m__entlan__4__anim, .cont2__m__entlan__1:hover > .cont2__m__entlan__4__anim, .cont2__m__entlan__2:hover > .cont2__m__entlan__4__anim, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__4__anim, .cont2__m__entlan__4:hover > .cont2__m__entlan__4__anim {
+  width: 17%;
 }
 
-.cont2__m__ent__1:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__ent__1__anim__checked .fas, .cont2__m__ent__1:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__ent__2__anim__checked .fas, .cont2__m__ent__1:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__ent__3__anim__checked .fas, .cont2__m__ent__1:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__pla__1__anim__checked .fas, .cont2__m__ent__1:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__pla__2__anim__checked .fas, .cont2__m__ent__1:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__pla__3__anim__checked .fas, .cont2__m__ent__1:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__des__1__anim__checked .fas, .cont2__m__ent__1:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__des__2__anim__checked .fas, .cont2__m__ent__1:hover > .cont2__m__des__3__anim__checked .fas, .cont2__m__ent__2:hover > .cont2__m__des__3__anim__checked .fas, .cont2__m__ent__3:hover > .cont2__m__des__3__anim__checked .fas, .cont2__m__pla__1:hover > .cont2__m__des__3__anim__checked .fas, .cont2__m__pla__2:hover > .cont2__m__des__3__anim__checked .fas, .cont2__m__pla__3:hover > .cont2__m__des__3__anim__checked .fas, .cont2__m__des__1:hover > .cont2__m__des__3__anim__checked .fas, .cont2__m__des__2:hover > .cont2__m__des__3__anim__checked .fas, .cont2__m__des__3:hover > .cont2__m__des__3__anim__checked .fas {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+.cont2__m__ent__1:hover > .cont2__m__ent__1__anim .fas, .cont2__m__ent__2:hover > .cont2__m__ent__1__anim .fas, .cont2__m__ent__3:hover > .cont2__m__ent__1__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__ent__1__anim .fas, .cont2__m__ent__4:hover > .cont2__m__ent__1__anim .fas, .cont2__m__pla__1:hover > .cont2__m__ent__1__anim .fas, .cont2__m__pla__2:hover > .cont2__m__ent__1__anim .fas, .cont2__m__pla__3:hover > .cont2__m__ent__1__anim .fas, .cont2__m__des__1:hover > .cont2__m__ent__1__anim .fas, .cont2__m__des__2:hover > .cont2__m__ent__1__anim .fas, .cont2__m__des__3:hover > .cont2__m__ent__1__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__ent__1__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__ent__1__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__ent__1__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__ent__1__anim .fas, .cont2__m__ent__1:hover > .cont2__m__ent__2__anim .fas, .cont2__m__ent__2:hover > .cont2__m__ent__2__anim .fas, .cont2__m__ent__3:hover > .cont2__m__ent__2__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__ent__2__anim .fas, .cont2__m__ent__4:hover > .cont2__m__ent__2__anim .fas, .cont2__m__pla__1:hover > .cont2__m__ent__2__anim .fas, .cont2__m__pla__2:hover > .cont2__m__ent__2__anim .fas, .cont2__m__pla__3:hover > .cont2__m__ent__2__anim .fas, .cont2__m__des__1:hover > .cont2__m__ent__2__anim .fas, .cont2__m__des__2:hover > .cont2__m__ent__2__anim .fas, .cont2__m__des__3:hover > .cont2__m__ent__2__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__ent__2__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__ent__2__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__ent__2__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__ent__2__anim .fas, .cont2__m__ent__1:hover > .cont2__m__ent__3__anim .fas, .cont2__m__ent__2:hover > .cont2__m__ent__3__anim .fas, .cont2__m__ent__3:hover > .cont2__m__ent__3__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__ent__3__anim .fas, .cont2__m__ent__4:hover > .cont2__m__ent__3__anim .fas, .cont2__m__pla__1:hover > .cont2__m__ent__3__anim .fas, .cont2__m__pla__2:hover > .cont2__m__ent__3__anim .fas, .cont2__m__pla__3:hover > .cont2__m__ent__3__anim .fas, .cont2__m__des__1:hover > .cont2__m__ent__3__anim .fas, .cont2__m__des__2:hover > .cont2__m__ent__3__anim .fas, .cont2__m__des__3:hover > .cont2__m__ent__3__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__ent__3__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__ent__3__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__ent__3__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__ent__3__anim .fas, .cont2__m__ent__1:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__ent__2:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__ent__3:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__ent__4:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__pla__1:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__pla__2:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__pla__3:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__des__1:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__des__2:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__des__3:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__ent__3lan__anim .fas, .cont2__m__ent__1:hover > .cont2__m__ent__4__anim .fas, .cont2__m__ent__2:hover > .cont2__m__ent__4__anim .fas, .cont2__m__ent__3:hover > .cont2__m__ent__4__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__ent__4__anim .fas, .cont2__m__ent__4:hover > .cont2__m__ent__4__anim .fas, .cont2__m__pla__1:hover > .cont2__m__ent__4__anim .fas, .cont2__m__pla__2:hover > .cont2__m__ent__4__anim .fas, .cont2__m__pla__3:hover > .cont2__m__ent__4__anim .fas, .cont2__m__des__1:hover > .cont2__m__ent__4__anim .fas, .cont2__m__des__2:hover > .cont2__m__ent__4__anim .fas, .cont2__m__des__3:hover > .cont2__m__ent__4__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__ent__4__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__ent__4__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__ent__4__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__ent__4__anim .fas, .cont2__m__ent__1:hover > .cont2__m__pla__1__anim .fas, .cont2__m__ent__2:hover > .cont2__m__pla__1__anim .fas, .cont2__m__ent__3:hover > .cont2__m__pla__1__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__pla__1__anim .fas, .cont2__m__ent__4:hover > .cont2__m__pla__1__anim .fas, .cont2__m__pla__1:hover > .cont2__m__pla__1__anim .fas, .cont2__m__pla__2:hover > .cont2__m__pla__1__anim .fas, .cont2__m__pla__3:hover > .cont2__m__pla__1__anim .fas, .cont2__m__des__1:hover > .cont2__m__pla__1__anim .fas, .cont2__m__des__2:hover > .cont2__m__pla__1__anim .fas, .cont2__m__des__3:hover > .cont2__m__pla__1__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__pla__1__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__pla__1__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__pla__1__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__pla__1__anim .fas, .cont2__m__ent__1:hover > .cont2__m__pla__2__anim .fas, .cont2__m__ent__2:hover > .cont2__m__pla__2__anim .fas, .cont2__m__ent__3:hover > .cont2__m__pla__2__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__pla__2__anim .fas, .cont2__m__ent__4:hover > .cont2__m__pla__2__anim .fas, .cont2__m__pla__1:hover > .cont2__m__pla__2__anim .fas, .cont2__m__pla__2:hover > .cont2__m__pla__2__anim .fas, .cont2__m__pla__3:hover > .cont2__m__pla__2__anim .fas, .cont2__m__des__1:hover > .cont2__m__pla__2__anim .fas, .cont2__m__des__2:hover > .cont2__m__pla__2__anim .fas, .cont2__m__des__3:hover > .cont2__m__pla__2__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__pla__2__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__pla__2__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__pla__2__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__pla__2__anim .fas, .cont2__m__ent__1:hover > .cont2__m__pla__3__anim .fas, .cont2__m__ent__2:hover > .cont2__m__pla__3__anim .fas, .cont2__m__ent__3:hover > .cont2__m__pla__3__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__pla__3__anim .fas, .cont2__m__ent__4:hover > .cont2__m__pla__3__anim .fas, .cont2__m__pla__1:hover > .cont2__m__pla__3__anim .fas, .cont2__m__pla__2:hover > .cont2__m__pla__3__anim .fas, .cont2__m__pla__3:hover > .cont2__m__pla__3__anim .fas, .cont2__m__des__1:hover > .cont2__m__pla__3__anim .fas, .cont2__m__des__2:hover > .cont2__m__pla__3__anim .fas, .cont2__m__des__3:hover > .cont2__m__pla__3__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__pla__3__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__pla__3__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__pla__3__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__pla__3__anim .fas, .cont2__m__ent__1:hover > .cont2__m__des__1__anim .fas, .cont2__m__ent__2:hover > .cont2__m__des__1__anim .fas, .cont2__m__ent__3:hover > .cont2__m__des__1__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__des__1__anim .fas, .cont2__m__ent__4:hover > .cont2__m__des__1__anim .fas, .cont2__m__pla__1:hover > .cont2__m__des__1__anim .fas, .cont2__m__pla__2:hover > .cont2__m__des__1__anim .fas, .cont2__m__pla__3:hover > .cont2__m__des__1__anim .fas, .cont2__m__des__1:hover > .cont2__m__des__1__anim .fas, .cont2__m__des__2:hover > .cont2__m__des__1__anim .fas, .cont2__m__des__3:hover > .cont2__m__des__1__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__des__1__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__des__1__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__des__1__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__des__1__anim .fas, .cont2__m__ent__1:hover > .cont2__m__des__2__anim .fas, .cont2__m__ent__2:hover > .cont2__m__des__2__anim .fas, .cont2__m__ent__3:hover > .cont2__m__des__2__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__des__2__anim .fas, .cont2__m__ent__4:hover > .cont2__m__des__2__anim .fas, .cont2__m__pla__1:hover > .cont2__m__des__2__anim .fas, .cont2__m__pla__2:hover > .cont2__m__des__2__anim .fas, .cont2__m__pla__3:hover > .cont2__m__des__2__anim .fas, .cont2__m__des__1:hover > .cont2__m__des__2__anim .fas, .cont2__m__des__2:hover > .cont2__m__des__2__anim .fas, .cont2__m__des__3:hover > .cont2__m__des__2__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__des__2__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__des__2__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__des__2__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__des__2__anim .fas, .cont2__m__ent__1:hover > .cont2__m__des__3__anim .fas, .cont2__m__ent__2:hover > .cont2__m__des__3__anim .fas, .cont2__m__ent__3:hover > .cont2__m__des__3__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__des__3__anim .fas, .cont2__m__ent__4:hover > .cont2__m__des__3__anim .fas, .cont2__m__pla__1:hover > .cont2__m__des__3__anim .fas, .cont2__m__pla__2:hover > .cont2__m__des__3__anim .fas, .cont2__m__pla__3:hover > .cont2__m__des__3__anim .fas, .cont2__m__des__1:hover > .cont2__m__des__3__anim .fas, .cont2__m__des__2:hover > .cont2__m__des__3__anim .fas, .cont2__m__des__3:hover > .cont2__m__des__3__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__des__3__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__des__3__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__des__3__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__des__3__anim .fas, .cont2__m__ent__1:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__ent__2:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__ent__3:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__ent__4:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__pla__1:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__pla__2:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__pla__3:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__des__1:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__des__2:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__des__3:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__entlan__1__anim .fas, .cont2__m__ent__1:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__ent__2:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__ent__3:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__ent__4:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__pla__1:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__pla__2:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__pla__3:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__des__1:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__des__2:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__des__3:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__entlan__2__anim .fas, .cont2__m__ent__1:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__ent__2:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__ent__3:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__ent__4:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__pla__1:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__pla__2:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__pla__3:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__des__1:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__des__2:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__des__3:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__entlan__3lan__anim .fas, .cont2__m__ent__1:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__ent__2:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__ent__3:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__ent__3lan:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__ent__4:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__pla__1:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__pla__2:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__pla__3:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__des__1:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__des__2:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__des__3:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__entlan__1:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__entlan__2:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__4__anim .fas, .cont2__m__entlan__4:hover > .cont2__m__entlan__4__anim .fas {
+  -webkit-animation: turn 400ms ease-in-out;
+          animation: turn 400ms ease-in-out;
 }
 
-.cont2__m__ent__1__half, .cont2__m__ent__2__half, .cont2__m__ent__3__half, .cont2__m__pla__1__half, .cont2__m__pla__2__half, .cont2__m__pla__3__half, .cont2__m__des__1__half, .cont2__m__des__2__half, .cont2__m__des__3__half {
+.cont2__m__ent__1__half, .cont2__m__ent__2__half, .cont2__m__ent__3__half, .cont2__m__ent__3lan__half, .cont2__m__ent__4__half, .cont2__m__pla__1__half, .cont2__m__pla__2__half, .cont2__m__pla__3__half, .cont2__m__des__1__half, .cont2__m__des__2__half, .cont2__m__des__3__half, .cont2__m__entlan__1__half, .cont2__m__entlan__2__half, .cont2__m__entlan__3lan__half, .cont2__m__entlan__4__half {
   width: 95%;
   -webkit-transition: width 400ms;
   transition: width 400ms;
 }
 
-.cont2__m__ent__1:hover > .cont2__m__ent__1__half, .cont2__m__ent__2:hover > .cont2__m__ent__1__half, .cont2__m__ent__3:hover > .cont2__m__ent__1__half, .cont2__m__pla__1:hover > .cont2__m__ent__1__half, .cont2__m__pla__2:hover > .cont2__m__ent__1__half, .cont2__m__pla__3:hover > .cont2__m__ent__1__half, .cont2__m__des__1:hover > .cont2__m__ent__1__half, .cont2__m__des__2:hover > .cont2__m__ent__1__half, .cont2__m__des__3:hover > .cont2__m__ent__1__half, .cont2__m__ent__1:hover > .cont2__m__ent__2__half, .cont2__m__ent__2:hover > .cont2__m__ent__2__half, .cont2__m__ent__3:hover > .cont2__m__ent__2__half, .cont2__m__pla__1:hover > .cont2__m__ent__2__half, .cont2__m__pla__2:hover > .cont2__m__ent__2__half, .cont2__m__pla__3:hover > .cont2__m__ent__2__half, .cont2__m__des__1:hover > .cont2__m__ent__2__half, .cont2__m__des__2:hover > .cont2__m__ent__2__half, .cont2__m__des__3:hover > .cont2__m__ent__2__half, .cont2__m__ent__1:hover > .cont2__m__ent__3__half, .cont2__m__ent__2:hover > .cont2__m__ent__3__half, .cont2__m__ent__3:hover > .cont2__m__ent__3__half, .cont2__m__pla__1:hover > .cont2__m__ent__3__half, .cont2__m__pla__2:hover > .cont2__m__ent__3__half, .cont2__m__pla__3:hover > .cont2__m__ent__3__half, .cont2__m__des__1:hover > .cont2__m__ent__3__half, .cont2__m__des__2:hover > .cont2__m__ent__3__half, .cont2__m__des__3:hover > .cont2__m__ent__3__half, .cont2__m__ent__1:hover > .cont2__m__pla__1__half, .cont2__m__ent__2:hover > .cont2__m__pla__1__half, .cont2__m__ent__3:hover > .cont2__m__pla__1__half, .cont2__m__pla__1:hover > .cont2__m__pla__1__half, .cont2__m__pla__2:hover > .cont2__m__pla__1__half, .cont2__m__pla__3:hover > .cont2__m__pla__1__half, .cont2__m__des__1:hover > .cont2__m__pla__1__half, .cont2__m__des__2:hover > .cont2__m__pla__1__half, .cont2__m__des__3:hover > .cont2__m__pla__1__half, .cont2__m__ent__1:hover > .cont2__m__pla__2__half, .cont2__m__ent__2:hover > .cont2__m__pla__2__half, .cont2__m__ent__3:hover > .cont2__m__pla__2__half, .cont2__m__pla__1:hover > .cont2__m__pla__2__half, .cont2__m__pla__2:hover > .cont2__m__pla__2__half, .cont2__m__pla__3:hover > .cont2__m__pla__2__half, .cont2__m__des__1:hover > .cont2__m__pla__2__half, .cont2__m__des__2:hover > .cont2__m__pla__2__half, .cont2__m__des__3:hover > .cont2__m__pla__2__half, .cont2__m__ent__1:hover > .cont2__m__pla__3__half, .cont2__m__ent__2:hover > .cont2__m__pla__3__half, .cont2__m__ent__3:hover > .cont2__m__pla__3__half, .cont2__m__pla__1:hover > .cont2__m__pla__3__half, .cont2__m__pla__2:hover > .cont2__m__pla__3__half, .cont2__m__pla__3:hover > .cont2__m__pla__3__half, .cont2__m__des__1:hover > .cont2__m__pla__3__half, .cont2__m__des__2:hover > .cont2__m__pla__3__half, .cont2__m__des__3:hover > .cont2__m__pla__3__half, .cont2__m__ent__1:hover > .cont2__m__des__1__half, .cont2__m__ent__2:hover > .cont2__m__des__1__half, .cont2__m__ent__3:hover > .cont2__m__des__1__half, .cont2__m__pla__1:hover > .cont2__m__des__1__half, .cont2__m__pla__2:hover > .cont2__m__des__1__half, .cont2__m__pla__3:hover > .cont2__m__des__1__half, .cont2__m__des__1:hover > .cont2__m__des__1__half, .cont2__m__des__2:hover > .cont2__m__des__1__half, .cont2__m__des__3:hover > .cont2__m__des__1__half, .cont2__m__ent__1:hover > .cont2__m__des__2__half, .cont2__m__ent__2:hover > .cont2__m__des__2__half, .cont2__m__ent__3:hover > .cont2__m__des__2__half, .cont2__m__pla__1:hover > .cont2__m__des__2__half, .cont2__m__pla__2:hover > .cont2__m__des__2__half, .cont2__m__pla__3:hover > .cont2__m__des__2__half, .cont2__m__des__1:hover > .cont2__m__des__2__half, .cont2__m__des__2:hover > .cont2__m__des__2__half, .cont2__m__des__3:hover > .cont2__m__des__2__half, .cont2__m__ent__1:hover > .cont2__m__des__3__half, .cont2__m__ent__2:hover > .cont2__m__des__3__half, .cont2__m__ent__3:hover > .cont2__m__des__3__half, .cont2__m__pla__1:hover > .cont2__m__des__3__half, .cont2__m__pla__2:hover > .cont2__m__des__3__half, .cont2__m__pla__3:hover > .cont2__m__des__3__half, .cont2__m__des__1:hover > .cont2__m__des__3__half, .cont2__m__des__2:hover > .cont2__m__des__3__half, .cont2__m__des__3:hover > .cont2__m__des__3__half {
-  width: 84%;
+.cont2__m__ent__1:hover > .cont2__m__ent__1__half, .cont2__m__ent__2:hover > .cont2__m__ent__1__half, .cont2__m__ent__3:hover > .cont2__m__ent__1__half, .cont2__m__ent__3lan:hover > .cont2__m__ent__1__half, .cont2__m__ent__4:hover > .cont2__m__ent__1__half, .cont2__m__pla__1:hover > .cont2__m__ent__1__half, .cont2__m__pla__2:hover > .cont2__m__ent__1__half, .cont2__m__pla__3:hover > .cont2__m__ent__1__half, .cont2__m__des__1:hover > .cont2__m__ent__1__half, .cont2__m__des__2:hover > .cont2__m__ent__1__half, .cont2__m__des__3:hover > .cont2__m__ent__1__half, .cont2__m__entlan__1:hover > .cont2__m__ent__1__half, .cont2__m__entlan__2:hover > .cont2__m__ent__1__half, .cont2__m__entlan__3lan:hover > .cont2__m__ent__1__half, .cont2__m__entlan__4:hover > .cont2__m__ent__1__half, .cont2__m__ent__1:hover > .cont2__m__ent__2__half, .cont2__m__ent__2:hover > .cont2__m__ent__2__half, .cont2__m__ent__3:hover > .cont2__m__ent__2__half, .cont2__m__ent__3lan:hover > .cont2__m__ent__2__half, .cont2__m__ent__4:hover > .cont2__m__ent__2__half, .cont2__m__pla__1:hover > .cont2__m__ent__2__half, .cont2__m__pla__2:hover > .cont2__m__ent__2__half, .cont2__m__pla__3:hover > .cont2__m__ent__2__half, .cont2__m__des__1:hover > .cont2__m__ent__2__half, .cont2__m__des__2:hover > .cont2__m__ent__2__half, .cont2__m__des__3:hover > .cont2__m__ent__2__half, .cont2__m__entlan__1:hover > .cont2__m__ent__2__half, .cont2__m__entlan__2:hover > .cont2__m__ent__2__half, .cont2__m__entlan__3lan:hover > .cont2__m__ent__2__half, .cont2__m__entlan__4:hover > .cont2__m__ent__2__half, .cont2__m__ent__1:hover > .cont2__m__ent__3__half, .cont2__m__ent__2:hover > .cont2__m__ent__3__half, .cont2__m__ent__3:hover > .cont2__m__ent__3__half, .cont2__m__ent__3lan:hover > .cont2__m__ent__3__half, .cont2__m__ent__4:hover > .cont2__m__ent__3__half, .cont2__m__pla__1:hover > .cont2__m__ent__3__half, .cont2__m__pla__2:hover > .cont2__m__ent__3__half, .cont2__m__pla__3:hover > .cont2__m__ent__3__half, .cont2__m__des__1:hover > .cont2__m__ent__3__half, .cont2__m__des__2:hover > .cont2__m__ent__3__half, .cont2__m__des__3:hover > .cont2__m__ent__3__half, .cont2__m__entlan__1:hover > .cont2__m__ent__3__half, .cont2__m__entlan__2:hover > .cont2__m__ent__3__half, .cont2__m__entlan__3lan:hover > .cont2__m__ent__3__half, .cont2__m__entlan__4:hover > .cont2__m__ent__3__half, .cont2__m__ent__1:hover > .cont2__m__ent__3lan__half, .cont2__m__ent__2:hover > .cont2__m__ent__3lan__half, .cont2__m__ent__3:hover > .cont2__m__ent__3lan__half, .cont2__m__ent__3lan:hover > .cont2__m__ent__3lan__half, .cont2__m__ent__4:hover > .cont2__m__ent__3lan__half, .cont2__m__pla__1:hover > .cont2__m__ent__3lan__half, .cont2__m__pla__2:hover > .cont2__m__ent__3lan__half, .cont2__m__pla__3:hover > .cont2__m__ent__3lan__half, .cont2__m__des__1:hover > .cont2__m__ent__3lan__half, .cont2__m__des__2:hover > .cont2__m__ent__3lan__half, .cont2__m__des__3:hover > .cont2__m__ent__3lan__half, .cont2__m__entlan__1:hover > .cont2__m__ent__3lan__half, .cont2__m__entlan__2:hover > .cont2__m__ent__3lan__half, .cont2__m__entlan__3lan:hover > .cont2__m__ent__3lan__half, .cont2__m__entlan__4:hover > .cont2__m__ent__3lan__half, .cont2__m__ent__1:hover > .cont2__m__ent__4__half, .cont2__m__ent__2:hover > .cont2__m__ent__4__half, .cont2__m__ent__3:hover > .cont2__m__ent__4__half, .cont2__m__ent__3lan:hover > .cont2__m__ent__4__half, .cont2__m__ent__4:hover > .cont2__m__ent__4__half, .cont2__m__pla__1:hover > .cont2__m__ent__4__half, .cont2__m__pla__2:hover > .cont2__m__ent__4__half, .cont2__m__pla__3:hover > .cont2__m__ent__4__half, .cont2__m__des__1:hover > .cont2__m__ent__4__half, .cont2__m__des__2:hover > .cont2__m__ent__4__half, .cont2__m__des__3:hover > .cont2__m__ent__4__half, .cont2__m__entlan__1:hover > .cont2__m__ent__4__half, .cont2__m__entlan__2:hover > .cont2__m__ent__4__half, .cont2__m__entlan__3lan:hover > .cont2__m__ent__4__half, .cont2__m__entlan__4:hover > .cont2__m__ent__4__half, .cont2__m__ent__1:hover > .cont2__m__pla__1__half, .cont2__m__ent__2:hover > .cont2__m__pla__1__half, .cont2__m__ent__3:hover > .cont2__m__pla__1__half, .cont2__m__ent__3lan:hover > .cont2__m__pla__1__half, .cont2__m__ent__4:hover > .cont2__m__pla__1__half, .cont2__m__pla__1:hover > .cont2__m__pla__1__half, .cont2__m__pla__2:hover > .cont2__m__pla__1__half, .cont2__m__pla__3:hover > .cont2__m__pla__1__half, .cont2__m__des__1:hover > .cont2__m__pla__1__half, .cont2__m__des__2:hover > .cont2__m__pla__1__half, .cont2__m__des__3:hover > .cont2__m__pla__1__half, .cont2__m__entlan__1:hover > .cont2__m__pla__1__half, .cont2__m__entlan__2:hover > .cont2__m__pla__1__half, .cont2__m__entlan__3lan:hover > .cont2__m__pla__1__half, .cont2__m__entlan__4:hover > .cont2__m__pla__1__half, .cont2__m__ent__1:hover > .cont2__m__pla__2__half, .cont2__m__ent__2:hover > .cont2__m__pla__2__half, .cont2__m__ent__3:hover > .cont2__m__pla__2__half, .cont2__m__ent__3lan:hover > .cont2__m__pla__2__half, .cont2__m__ent__4:hover > .cont2__m__pla__2__half, .cont2__m__pla__1:hover > .cont2__m__pla__2__half, .cont2__m__pla__2:hover > .cont2__m__pla__2__half, .cont2__m__pla__3:hover > .cont2__m__pla__2__half, .cont2__m__des__1:hover > .cont2__m__pla__2__half, .cont2__m__des__2:hover > .cont2__m__pla__2__half, .cont2__m__des__3:hover > .cont2__m__pla__2__half, .cont2__m__entlan__1:hover > .cont2__m__pla__2__half, .cont2__m__entlan__2:hover > .cont2__m__pla__2__half, .cont2__m__entlan__3lan:hover > .cont2__m__pla__2__half, .cont2__m__entlan__4:hover > .cont2__m__pla__2__half, .cont2__m__ent__1:hover > .cont2__m__pla__3__half, .cont2__m__ent__2:hover > .cont2__m__pla__3__half, .cont2__m__ent__3:hover > .cont2__m__pla__3__half, .cont2__m__ent__3lan:hover > .cont2__m__pla__3__half, .cont2__m__ent__4:hover > .cont2__m__pla__3__half, .cont2__m__pla__1:hover > .cont2__m__pla__3__half, .cont2__m__pla__2:hover > .cont2__m__pla__3__half, .cont2__m__pla__3:hover > .cont2__m__pla__3__half, .cont2__m__des__1:hover > .cont2__m__pla__3__half, .cont2__m__des__2:hover > .cont2__m__pla__3__half, .cont2__m__des__3:hover > .cont2__m__pla__3__half, .cont2__m__entlan__1:hover > .cont2__m__pla__3__half, .cont2__m__entlan__2:hover > .cont2__m__pla__3__half, .cont2__m__entlan__3lan:hover > .cont2__m__pla__3__half, .cont2__m__entlan__4:hover > .cont2__m__pla__3__half, .cont2__m__ent__1:hover > .cont2__m__des__1__half, .cont2__m__ent__2:hover > .cont2__m__des__1__half, .cont2__m__ent__3:hover > .cont2__m__des__1__half, .cont2__m__ent__3lan:hover > .cont2__m__des__1__half, .cont2__m__ent__4:hover > .cont2__m__des__1__half, .cont2__m__pla__1:hover > .cont2__m__des__1__half, .cont2__m__pla__2:hover > .cont2__m__des__1__half, .cont2__m__pla__3:hover > .cont2__m__des__1__half, .cont2__m__des__1:hover > .cont2__m__des__1__half, .cont2__m__des__2:hover > .cont2__m__des__1__half, .cont2__m__des__3:hover > .cont2__m__des__1__half, .cont2__m__entlan__1:hover > .cont2__m__des__1__half, .cont2__m__entlan__2:hover > .cont2__m__des__1__half, .cont2__m__entlan__3lan:hover > .cont2__m__des__1__half, .cont2__m__entlan__4:hover > .cont2__m__des__1__half, .cont2__m__ent__1:hover > .cont2__m__des__2__half, .cont2__m__ent__2:hover > .cont2__m__des__2__half, .cont2__m__ent__3:hover > .cont2__m__des__2__half, .cont2__m__ent__3lan:hover > .cont2__m__des__2__half, .cont2__m__ent__4:hover > .cont2__m__des__2__half, .cont2__m__pla__1:hover > .cont2__m__des__2__half, .cont2__m__pla__2:hover > .cont2__m__des__2__half, .cont2__m__pla__3:hover > .cont2__m__des__2__half, .cont2__m__des__1:hover > .cont2__m__des__2__half, .cont2__m__des__2:hover > .cont2__m__des__2__half, .cont2__m__des__3:hover > .cont2__m__des__2__half, .cont2__m__entlan__1:hover > .cont2__m__des__2__half, .cont2__m__entlan__2:hover > .cont2__m__des__2__half, .cont2__m__entlan__3lan:hover > .cont2__m__des__2__half, .cont2__m__entlan__4:hover > .cont2__m__des__2__half, .cont2__m__ent__1:hover > .cont2__m__des__3__half, .cont2__m__ent__2:hover > .cont2__m__des__3__half, .cont2__m__ent__3:hover > .cont2__m__des__3__half, .cont2__m__ent__3lan:hover > .cont2__m__des__3__half, .cont2__m__ent__4:hover > .cont2__m__des__3__half, .cont2__m__pla__1:hover > .cont2__m__des__3__half, .cont2__m__pla__2:hover > .cont2__m__des__3__half, .cont2__m__pla__3:hover > .cont2__m__des__3__half, .cont2__m__des__1:hover > .cont2__m__des__3__half, .cont2__m__des__2:hover > .cont2__m__des__3__half, .cont2__m__des__3:hover > .cont2__m__des__3__half, .cont2__m__entlan__1:hover > .cont2__m__des__3__half, .cont2__m__entlan__2:hover > .cont2__m__des__3__half, .cont2__m__entlan__3lan:hover > .cont2__m__des__3__half, .cont2__m__entlan__4:hover > .cont2__m__des__3__half, .cont2__m__ent__1:hover > .cont2__m__entlan__1__half, .cont2__m__ent__2:hover > .cont2__m__entlan__1__half, .cont2__m__ent__3:hover > .cont2__m__entlan__1__half, .cont2__m__ent__3lan:hover > .cont2__m__entlan__1__half, .cont2__m__ent__4:hover > .cont2__m__entlan__1__half, .cont2__m__pla__1:hover > .cont2__m__entlan__1__half, .cont2__m__pla__2:hover > .cont2__m__entlan__1__half, .cont2__m__pla__3:hover > .cont2__m__entlan__1__half, .cont2__m__des__1:hover > .cont2__m__entlan__1__half, .cont2__m__des__2:hover > .cont2__m__entlan__1__half, .cont2__m__des__3:hover > .cont2__m__entlan__1__half, .cont2__m__entlan__1:hover > .cont2__m__entlan__1__half, .cont2__m__entlan__2:hover > .cont2__m__entlan__1__half, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__1__half, .cont2__m__entlan__4:hover > .cont2__m__entlan__1__half, .cont2__m__ent__1:hover > .cont2__m__entlan__2__half, .cont2__m__ent__2:hover > .cont2__m__entlan__2__half, .cont2__m__ent__3:hover > .cont2__m__entlan__2__half, .cont2__m__ent__3lan:hover > .cont2__m__entlan__2__half, .cont2__m__ent__4:hover > .cont2__m__entlan__2__half, .cont2__m__pla__1:hover > .cont2__m__entlan__2__half, .cont2__m__pla__2:hover > .cont2__m__entlan__2__half, .cont2__m__pla__3:hover > .cont2__m__entlan__2__half, .cont2__m__des__1:hover > .cont2__m__entlan__2__half, .cont2__m__des__2:hover > .cont2__m__entlan__2__half, .cont2__m__des__3:hover > .cont2__m__entlan__2__half, .cont2__m__entlan__1:hover > .cont2__m__entlan__2__half, .cont2__m__entlan__2:hover > .cont2__m__entlan__2__half, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__2__half, .cont2__m__entlan__4:hover > .cont2__m__entlan__2__half, .cont2__m__ent__1:hover > .cont2__m__entlan__3lan__half, .cont2__m__ent__2:hover > .cont2__m__entlan__3lan__half, .cont2__m__ent__3:hover > .cont2__m__entlan__3lan__half, .cont2__m__ent__3lan:hover > .cont2__m__entlan__3lan__half, .cont2__m__ent__4:hover > .cont2__m__entlan__3lan__half, .cont2__m__pla__1:hover > .cont2__m__entlan__3lan__half, .cont2__m__pla__2:hover > .cont2__m__entlan__3lan__half, .cont2__m__pla__3:hover > .cont2__m__entlan__3lan__half, .cont2__m__des__1:hover > .cont2__m__entlan__3lan__half, .cont2__m__des__2:hover > .cont2__m__entlan__3lan__half, .cont2__m__des__3:hover > .cont2__m__entlan__3lan__half, .cont2__m__entlan__1:hover > .cont2__m__entlan__3lan__half, .cont2__m__entlan__2:hover > .cont2__m__entlan__3lan__half, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__3lan__half, .cont2__m__entlan__4:hover > .cont2__m__entlan__3lan__half, .cont2__m__ent__1:hover > .cont2__m__entlan__4__half, .cont2__m__ent__2:hover > .cont2__m__entlan__4__half, .cont2__m__ent__3:hover > .cont2__m__entlan__4__half, .cont2__m__ent__3lan:hover > .cont2__m__entlan__4__half, .cont2__m__ent__4:hover > .cont2__m__entlan__4__half, .cont2__m__pla__1:hover > .cont2__m__entlan__4__half, .cont2__m__pla__2:hover > .cont2__m__entlan__4__half, .cont2__m__pla__3:hover > .cont2__m__entlan__4__half, .cont2__m__des__1:hover > .cont2__m__entlan__4__half, .cont2__m__des__2:hover > .cont2__m__entlan__4__half, .cont2__m__des__3:hover > .cont2__m__entlan__4__half, .cont2__m__entlan__1:hover > .cont2__m__entlan__4__half, .cont2__m__entlan__2:hover > .cont2__m__entlan__4__half, .cont2__m__entlan__3lan:hover > .cont2__m__entlan__4__half, .cont2__m__entlan__4:hover > .cont2__m__entlan__4__half {
+  width: 83%;
 }
 
 .btn {
@@ -874,6 +1066,13 @@ a {
   background: linear-gradient(to top left, #9356DC, #FF79DA);
   -webkit-box-shadow: 0px 5px 10px 0px #adadad;
           box-shadow: 0px 5px 10px 0px #adadad;
+  opacity: 1;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 10px 15px 0px #adadad;
+          box-shadow: 0px 10px 15px 0px #adadad;
 }
 
 .btn__txt {
@@ -893,5 +1092,12 @@ a {
   -webkit-box-shadow: 0px 5px 10px 0px #adadad;
           box-shadow: 0px 5px 10px 0px #adadad;
   margin-top: 11px;
+  opacity: 1;
+}
+
+.btn--modif:hover {
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 10px 15px 0px #adadad;
+          box-shadow: 0px 10px 15px 0px #adadad;
 }
 /*# sourceMappingURL=Ohmyfood.css.map */

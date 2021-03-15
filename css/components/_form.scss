@@ -6,6 +6,11 @@
     text-align: center;
     background: linear-gradient(to top left, $clr-primary, $clr-secondary);
     box-shadow: 0px 5px 10px 0px rgb(173, 173, 173);
+    opacity: 1;
+    &:hover {
+        opacity: 0.9;
+        box-shadow: 0px 10px 15px 0px rgb(173, 173, 173);
+    }
     &__txt {
         padding-top: 16px; 
         font-family: $f;
@@ -20,5 +25,11 @@
         background: linear-gradient(to top left, $clr-primary, $clr-secondary);
         box-shadow: 0px 5px 10px 0px rgb(173, 173, 173);
         margin-top: 11px;
+        opacity: 1;
+        &:hover {
+            opacity: 0.9;
+            box-shadow: 0px 10px 15px 0px rgb(173, 173, 173);
+
+        }
     }
 }

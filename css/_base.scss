@@ -105,6 +105,17 @@ a {
         margin: auto;
         border-radius: 25px;
     }
+    &__mlan {
+        width: 100%;
+        height: 1126px;
+        background-color: #f6f6f6;
+        position: absolute;
+        z-index: 2;
+        background-color: #f6f6f6;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin-top: 220px;
+    }
     &__m {
         width: 100%;
         height: 1038px;
@@ -171,30 +182,26 @@ a {
             margin-top: 5px;
             margin-left: 18px;
         }
-        &__ent, &__pla, &__des {
-            border: $p;
+        &__entlan {
             width: 92.5%;
-            height: 232px;
+            height: 320px;
             margin: auto;
             margin-top: 20px;
-            &__1, &__2, &__3 {
+            &__1, &__2, &__3, &__3lan, &__4 {
                 width: 100%;
                 height: 68px;
                 background-color: white;
                 border-radius: 15px;
                 box-shadow: 0px 5px 10px 0px rgb(218, 218, 218);
-                border: $p;
                 display: flex;
                 justify-content: space-between;
                 &__half {
                     &__title {
-                        border: $p;
                         display: flex;
                         &__txt {
                             font-family: $f;
                             font-size: 1.1em;
                             font-weight: bold;
-                            border: $p;
                             width: 260px;
                             margin-left: 12px;
                             padding-top: 12px;
@@ -205,11 +212,9 @@ a {
                     }
                     &__cont {
                         display: flex;
-                        border: $p;
                         &__txt {
                             font-family: $f;
                             font-size: 0.88em;
-                            border: $p;
                             margin-left: 13px;
                             margin-top: 4px;
                             width: 283px;
@@ -220,23 +225,88 @@ a {
                         &__prix {
                             font-family: $f;
                             font-size: 0.88em;
-                            border: $p;
                             margin-top: 4px;
                             font-weight: bold;
+                            margin-right: 6px;
                         }
                     }
                 }
                 &__anim {
                     &__checked {
-                        margin-top: 20px;
+                        margin-top: 22px;
                         color: white;
-                        margin-left: 15px;
-                        font-size: 1.3em;
-                        transition: transform 400ms
+                        margin-left: 18px;
+                        font-size: 1.35em;
+                        display: inline-block;
                     }
                 }
             }
-            &__1, &__2 {
+            &__1, &__2, &__3lan {
+                margin-bottom: 13px;
+            }
+        }
+        &__ent, &__pla, &__des {
+            
+            width: 92.5%;
+            height: 232px;
+            margin: auto;
+            margin-top: 20px;
+            &__1, &__2, &__3, &__3lan, &__4 {
+                width: 100%;
+                height: 68px;
+                background-color: white;
+                border-radius: 15px;
+                box-shadow: 0px 5px 10px 0px rgb(218, 218, 218);
+                
+                display: flex;
+                justify-content: space-between;
+                &__half {
+                    &__title {
+                        display: flex;
+                        &__txt {
+                            font-family: $f;
+                            font-size: 1.1em;
+                            font-weight: bold;
+                            width: 260px;
+                            margin-left: 12px;
+                            padding-top: 12px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+                    }
+                    &__cont {
+                        display: flex;
+                        &__txt {
+                            font-family: $f;
+                            font-size: 0.88em;
+                            margin-left: 13px;
+                            margin-top: 4px;
+                            width: 283px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+                        &__prix {
+                            font-family: $f;
+                            font-size: 0.88em;
+                            margin-top: 4px;
+                            font-weight: bold;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+                &__anim {
+                    &__checked {
+                        margin-top: 22px;
+                        color: white;
+                        margin-left: 18px;
+                        font-size: 1.35em;
+                        display: inline-block;
+                    }
+                }
+            }
+            &__1, &__2, &__3lan {
                 margin-bottom: 13px;
             }
         }
@@ -314,6 +384,14 @@ a {
         position: absolute;
         z-index: 3;
         margin-top: 1002px;
+    }
+    &__mlan {
+        width: 100%;
+        height: 124px;
+        background-color: #f6f6f6;
+        position: absolute;
+        z-index: 3;
+        margin-top: 1090px; 
     }
 }
 .cont4 {
@@ -401,15 +479,16 @@ a {
                     }
                 }
                 &__cont2 {
-                    width: 20px;
-                    height: 20px;
+                    width: 30px;
+                    height: 30px;
                     margin-top: 20px;
-                    margin-left: 124px;
+                    margin-left: 37%;
                     position: relative;
                     &__ico1 {
                         position: absolute;
                         width: 20px;
                         height: 20px;
+                        padding: 2px 2px 2px 2px;
                         font-size: 1.3em;
                         color: $b;
                         z-index: 1;
@@ -420,6 +499,7 @@ a {
                         background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
                         -webkit-background-clip: text;
 	                    -webkit-text-fill-color: transparent;
+                        padding: 2px 2px 2px 2px;
                     }
                     &:hover &__ico2 {
                         opacity: 1;
@@ -542,4 +622,60 @@ a {
         }
     }
 }
-
+.footermlan {
+    width: 100%;
+    height: 197px;
+    background-color: #353535;
+    padding-top: 1px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 1214px;
+    &__cont {
+        width: 87%;
+        margin: auto;
+        &__logo {
+            width: 100px;
+            height: 14px;
+            margin-top: 24px;
+            margin-bottom: 20px;
+            &__img {
+                background-color: #353535;
+                width: 100px;
+                height: 14px;
+            }
+        }
+        &__cont1, &__cont2 {
+            display: flex;
+            &__log1 {
+                color:white;
+                font-size: 12px;
+                margin-right: 11px;
+                margin-top: 2px;
+                margin-bottom: 10px;
+            }
+            &__log2 {
+                color:white;
+                font-size: 10px;
+                margin-right: 8px;
+                margin-top: 4px;
+                margin-bottom: 10px;
+            }
+            &__prop, &__dev {
+                color: white;
+                font-family: $f;
+            }
+        }
+        &__cont3 {
+            color: white;
+            font-family: $f;
+            margin-bottom: 8px;
+        }
+        &__cont4 {
+            color: white;
+            font-family: $f;
+        }
+    }
+}
+.f1 {
+    margin-bottom: 6px;
+}
