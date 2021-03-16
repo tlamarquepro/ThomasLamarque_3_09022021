@@ -33,3 +33,56 @@
         }
     }
 }
+.contload {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(95, 95, 255);
+    opacity: 0.9;
+    position: absolute;
+    
+    animation: load 1000ms ease-in-out;
+    z-index: 3;
+    &__loader {
+        width: 50vw;
+        height: 5vh;
+        padding-top: 45vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        &__spin1, &__spin2, &__spin3, &__spin4, &__spin5, &__spin6 {
+            background-color: rgb(224, 16, 16);
+            border: 2px rgb(255, 238, 0) solid;
+            height: 25px;
+            width: 3vh;
+            border-radius: 100px;
+        }
+        &__spin1 {
+            animation: spin 200ms linear;
+            transform-origin: 148% 50%;
+        }
+        &__spin2 {
+            animation: spinrev 200ms 200ms linear;
+            transform-origin: 148% 50%;
+        }
+        &__spin3 {
+            animation: spin 200ms 400ms linear;
+            transform-origin: 148% 50%;
+        }
+        &__spin4 {
+            animation: spinrev 200ms 600ms linear;
+            transform-origin: 148% 50%;
+        }
+        &__spin5 {
+            animation: spin5 1200ms 800ms infinite;
+        }
+        &__spin6 {
+            animation: spin 200ms ms linear;
+            transform-origin: -40% 50%;
+        }
+
+    }
+}
+#bloc_page {
+    position: relative;
+    z-index: 2;
+}

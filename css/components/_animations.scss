@@ -1,3 +1,51 @@
+@keyframes load {
+    0% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden; 
+    } 
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg); 
+    } 
+}
+@keyframes spinrev {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-180deg); 
+    } 
+}
+@keyframes spin5 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 140% 50%;
+    }
+    32% {
+        transform: rotate(180deg);
+        transform-origin: 140% 50%;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+    67% {
+        transform: rotate(0deg);
+        transform-origin: -40% 50%;
+    }
+    100% {
+        transform: rotate(-180deg);
+        transform-origin: -40% 50%;
+    } 
+}
 @keyframes heart {
     0% {
         opacity: 0;
