@@ -36,24 +36,32 @@
 .contload {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(95, 95, 255);
+    background-color: rgb(0, 0, 0);
     opacity: 0.9;
     position: absolute;
-    
-    animation: load 1000ms ease-in-out;
+    visibility: hidden;
+    animation: load 1900ms ease-in-out;
     z-index: 3;
+    &__txt {
+        color: white;
+        width: 80vw;
+        padding-top: 5vh;
+        margin: auto;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
     &__loader {
-        width: 50vw;
-        height: 5vh;
+        width: 190px;
+        height: 30px;
         padding-top: 45vh;
         margin: auto;
         display: flex;
         justify-content: space-between;
         &__spin1, &__spin2, &__spin3, &__spin4, &__spin5, &__spin6 {
-            background-color: rgb(224, 16, 16);
-            border: 2px rgb(255, 238, 0) solid;
+            background-color: rgb(255, 81, 0);
+            border: 2px rgb(255, 251, 2) solid;
             height: 25px;
-            width: 3vh;
+            width: 15px;
             border-radius: 100px;
         }
         &__spin1 {
@@ -61,22 +69,19 @@
             transform-origin: 148% 50%;
         }
         &__spin2 {
-            animation: spinrev 200ms 200ms linear;
-            transform-origin: 148% 50%;
+            animation: spin2 1700ms 200ms linear;
         }
         &__spin3 {
-            animation: spin 200ms 400ms linear;
-            transform-origin: 148% 50%;
+            animation: spin3 1400ms 400ms linear;
         }
         &__spin4 {
-            animation: spinrev 200ms 600ms linear;
-            transform-origin: 148% 50%;
+            animation: spin4 900ms 600ms linear;
         }
         &__spin5 {
-            animation: spin5 1200ms 800ms infinite;
+            animation: spin5 500ms 800ms linear;
         }
         &__spin6 {
-            animation: spin 200ms ms linear;
+            animation: spin 200ms 900ms linear;
             transform-origin: -40% 50%;
         }
 
