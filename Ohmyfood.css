@@ -819,6 +819,7 @@ a {
 @-webkit-keyframes load {
   0% {
     visibility: visible;
+    overflow-y: hidden;
   }
   100% {
     visibility: hidden;
@@ -828,31 +829,10 @@ a {
 @keyframes load {
   0% {
     visibility: visible;
+    overflow-y: hidden;
   }
   100% {
     visibility: hidden;
-  }
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-}
-
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
   }
 }
 
@@ -868,6 +848,28 @@ a {
 }
 
 @keyframes spintest {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -1026,8 +1028,8 @@ a {
             transform-origin: 140% 50%;
   }
   20% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
     -webkit-transform-origin: 140% 50%;
             transform-origin: 140% 50%;
     opacity: 1;
@@ -1061,8 +1063,8 @@ a {
             transform-origin: 140% 50%;
   }
   20% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
     -webkit-transform-origin: 140% 50%;
             transform-origin: 140% 50%;
     opacity: 1;
