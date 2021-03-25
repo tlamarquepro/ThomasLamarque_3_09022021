@@ -152,7 +152,7 @@
             border-left: 3px black solid;
             border-right: 3px black solid;
             margin-left: -0.1%;
-            margin-top: 500px;
+            margin-top: 780px;
         }
     }
     .cont4 {
@@ -264,7 +264,7 @@
             margin-top: 464px;
         }
         &__mlan {
-            margin-top: 500px;
+            margin-top: 780px;
         }
         &__mled {
             margin-top: 715px; 
@@ -387,7 +387,7 @@
             margin-top: 464px;
         }
         &__mlan {
-            margin-top: 500px;
+            margin-top: 780px;
         }
         &__mled {
             margin-top: 720px; 
@@ -538,6 +538,9 @@
         &__chois {
             margin-top: 80px;
         }
+        &__mlan {
+            margin-top: 1345px;
+        }
         &__mled {
             margin-top: 1255px; 
         }
@@ -649,6 +652,9 @@
         }
         &__chois {
             margin-top: 80px;
+        }
+        &__mlan {
+            margin-top: 1345px;
         }
         &__mled {
             margin-top: 1255px; 
@@ -843,6 +849,9 @@
         }
         &__chois {
             margin-top: 80px;
+        }
+        &__mlan {
+            margin-top: 1345px;
         }
         &__mled {
             margin-top: 1255px; 
@@ -1065,6 +1074,9 @@
         &__chois, &__comp, &__deg {
             width: 87%;
         }
+        &__mlan {
+            margin-top: 1088px;
+        }
     }
     .cont4 {
         &__cont_rest {
@@ -1072,9 +1084,7 @@
             &__rest1, &__rest2, &__rest3, &__rest4 {
                 &__desc__cont1 {
                     width: 100%;
-                    
                     font-size: 0.9em;
-                    
                 }
             }
         }

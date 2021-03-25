@@ -458,7 +458,7 @@ a {
   background-color: #f6f6f6;
   position: absolute;
   z-index: 3;
-  margin-top: 1002px;
+  margin-top: 1100px;
 }
 
 .cont3__mled {
@@ -1736,7 +1736,7 @@ a {
     border-left: 3px black solid;
     border-right: 3px black solid;
     margin-left: -0.1%;
-    margin-top: 500px;
+    margin-top: 780px;
   }
   .cont4 {
     height: 800px;
@@ -1853,7 +1853,7 @@ a {
     margin-top: 464px;
   }
   .cont3__mlan {
-    margin-top: 500px;
+    margin-top: 780px;
   }
   .cont3__mled {
     margin-top: 715px;
@@ -1981,7 +1981,7 @@ a {
     margin-top: 464px;
   }
   .cont3__mlan {
-    margin-top: 500px;
+    margin-top: 780px;
   }
   .cont3__mled {
     margin-top: 720px;
@@ -2127,6 +2127,9 @@ a {
   .cont3__chois {
     margin-top: 80px;
   }
+  .cont3__mlan {
+    margin-top: 1345px;
+  }
   .cont3__mled {
     margin-top: 1255px;
   }
@@ -2240,6 +2243,9 @@ a {
   }
   .cont3__chois {
     margin-top: 80px;
+  }
+  .cont3__mlan {
+    margin-top: 1345px;
   }
   .cont3__mled {
     margin-top: 1255px;
@@ -2420,6 +2426,9 @@ a {
   .cont3__chois {
     margin-top: 80px;
   }
+  .cont3__mlan {
+    margin-top: 1345px;
+  }
   .cont3__mled {
     margin-top: 1255px;
   }
@@ -2568,6 +2577,9 @@ a {
   }
   .cont3__chois, .cont3__comp, .cont3__deg {
     width: 87%;
+  }
+  .cont3__mlan {
+    margin-top: 1088px;
   }
   .cont4__cont_rest__rest1__desc__cont1, .cont4__cont_rest__rest2__desc__cont1, .cont4__cont_rest__rest3__desc__cont1, .cont4__cont_rest__rest4__desc__cont1 {
     width: 100%;
