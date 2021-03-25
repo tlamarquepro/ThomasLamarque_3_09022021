@@ -13,18 +13,23 @@ a {
     width: 100%;
     height: 63px;
     display: flex;
-    &__backa, &__backm {
+    &__backm {
         font-size: 1.2em;
         margin-top: 22px;
         margin-left: 24px;
         margin-right: 64px;
         color: #353535;
-    } &__backa {
-        opacity: 0;
-        pointer-events: none;
-        cursor: default;
     }
     &__logo {
+        margin: auto;
+        width: 164px;
+        &__img {
+            margin-top: 5px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__logom {
         width: 164px;
         &__img {
             margin-top: 5px;
@@ -54,15 +59,17 @@ a {
     }
     &__m {
         position: relative;
-        width: 100%;
+        width: 100vw;
+        max-width: 1600px;
         height: 256px;
         &__lap {
             position: absolute;
             z-index: 1;
             &__img {
                 object-fit: cover;
-                width: 100%;
-                height: 100%;
+                width: 100vw;
+                max-width: 1600px;
+                height: 256px;
             }
         }
     }
@@ -147,7 +154,7 @@ a {
                     font-size: 1.5em;
                     opacity: 0;
                     background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
-                    -webkit-background-clip: text;
+                    background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
                 &:hover &__2 {
@@ -157,7 +164,7 @@ a {
                 }
                 &:hover &__1 {
                     background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
-                    -webkit-background-clip: text;
+                    background-clip: text;
                     -webkit-text-fill-color: transparent;
                     animation: heart 200ms ease-in-out;
                 }
@@ -373,6 +380,16 @@ a {
     }
     &__m {
         width: 100%;
+        max-width: 1600px;
+        height: 124px;
+        background-color: #f6f6f6;
+        position: absolute;
+        z-index: 3;
+        margin-top: 1002px;
+    }
+    &__mled {
+        width: 100%;
+        max-width: 1600px;
         height: 124px;
         background-color: #f6f6f6;
         position: absolute;
@@ -381,6 +398,7 @@ a {
     }
     &__mlan {
         width: 100%;
+        max-width: 1600px;
         height: 124px;
         background-color: #f6f6f6;
         position: absolute;
@@ -491,7 +509,7 @@ a {
                         font-size: 1.3em;
                         opacity: 0;
                         background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
-                        -webkit-background-clip: text;
+                        background-clip: text;
 	                    -webkit-text-fill-color: transparent;
                         padding: 2px 2px 2px 2px;
                     }
@@ -502,7 +520,7 @@ a {
                     }
                     &:hover &__ico1 {
                         background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
-                        -webkit-background-clip: text;
+                        background-clip: text;
 	                    -webkit-text-fill-color: transparent;
                         animation: heart 200ms ease-in-out;
                     }

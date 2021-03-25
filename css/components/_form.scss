@@ -40,7 +40,7 @@
     opacity: 0.9;
     position: absolute;
     visibility: hidden;
-    animation: load 1900ms ease-in-out;
+    animation: load 1600ms ease-in-out;
     z-index: 3;
     &__txt {
         color: white;
@@ -58,7 +58,7 @@
         display: flex;
         justify-content: space-between;
         &__spin1, &__spin2, &__spin3, &__spin4, &__spin5, &__spin6 {
-            background-color: rgb(255, 81, 0);
+            background-color: $clr-tertiary;
             border: 2px rgb(255, 251, 2) solid;
             height: 25px;
             width: 15px;

@@ -169,7 +169,29 @@
     0% {
         opacity: 0;
     }
-    50% {
+    20% {
+        opacity: 1; 
+    }
+    100% {
+        opacity: 1;
+    } 
+}
+@keyframes opac2 {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1; 
+    }
+    100% {
+        opacity: 1;
+    } 
+}
+@keyframes opac3 {
+    0% {
+        opacity: 0;
+    }
+    90% {
         opacity: 1; 
     }
     100% {
@@ -187,43 +209,43 @@
 .cont2__m__ent, .cont2__m__entlan {
     
     &__1 {
-        animation: translat1 600ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat1 2000ms ease-in-out, opac 1600ms ease-in-out;
     }
     &__2 {
-        animation: translat2 800ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat2 2200ms ease-in-out, opac 1600ms ease-in-out;
     }
     &__3 {
-        animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat3 2400ms ease-in-out, opac 1600ms ease-in-out;
     }
     &__3lan {
-        animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat3 2400ms ease-in-out, opac 1600ms ease-in-out;
     }
     &__4 {
-        animation: translat3 1200ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat3 2600ms ease-in-out, opac 1600ms ease-in-out;
     }
 }
 .cont2__m__pla {
     
     &__1 {
-        animation: translat1 600ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat1 2800ms ease-in-out, opac2 2200ms ease-in-out;
     }
     &__2 {
-        animation: translat2 800ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat2 3000ms ease-in-out, opac2 2200ms ease-in-out;
     }
     &__3 {
-        animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat3 3200ms ease-in-out, opac2 2200ms ease-in-out;
     }
 }
 .cont2__m__des {
     
     &__1 {
-        animation: translat1 600ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat1 3400ms ease-in-out, opac3 2800ms ease-in-out;
     }
     &__2 {
-        animation: translat2 800ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat2 3600ms ease-in-out, opac3 2800ms ease-in-out;
     }
     &__3 {
-        animation: translat3 1000ms ease-in-out, opac 1200ms ease-in-out;
+        animation: translat3 3800ms ease-in-out, opac3 2800ms ease-in-out;
     }
 }
 .cont2 {
