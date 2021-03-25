@@ -1793,6 +1793,9 @@ a {
   .cont2__discov {
     margin-bottom: 70px;
   }
+  .cont2__mlan {
+    height: 800px;
+  }
   .cont2__m {
     height: 500px;
   }
@@ -1848,6 +1851,9 @@ a {
   }
   .cont3__m {
     margin-top: 464px;
+  }
+  .cont3__mlan {
+    margin-top: 500px;
   }
   .cont3__mled {
     margin-top: 715px;
@@ -1915,6 +1921,9 @@ a {
   .cont2__discov {
     margin-bottom: 70px;
   }
+  .cont2__mlan {
+    height: 800px;
+  }
   .cont2__m {
     height: 500px;
   }
@@ -1970,6 +1979,9 @@ a {
   }
   .cont3__m {
     margin-top: 464px;
+  }
+  .cont3__mlan {
+    margin-top: 500px;
   }
   .cont3__mled {
     margin-top: 720px;
