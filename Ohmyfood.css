@@ -183,7 +183,7 @@ a {
   opacity: 0;
   background: -webkit-gradient(linear, right top, left bottom, from(#9356DC), to(#FF79DA));
   background: linear-gradient(to bottom left, #9356DC, #FF79DA);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -197,7 +197,7 @@ a {
 .cont2__m__lap__ico:hover .cont2__m__lap__ico__1 {
   background: -webkit-gradient(linear, right top, left bottom, from(#9356DC), to(#FF79DA));
   background: linear-gradient(to bottom left, #9356DC, #FF79DA);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: heart 200ms ease-in-out;
           animation: heart 200ms ease-in-out;
@@ -609,7 +609,7 @@ a {
   opacity: 0;
   background: -webkit-gradient(linear, right top, left bottom, from(#9356DC), to(#FF79DA));
   background: linear-gradient(to bottom left, #9356DC, #FF79DA);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 2px 2px 2px 2px;
 }
@@ -624,7 +624,7 @@ a {
 .cont4__cont_rest__rest1__desc__cont2:hover .cont4__cont_rest__rest1__desc__cont2__ico1, .cont4__cont_rest__rest2__desc__cont2:hover .cont4__cont_rest__rest1__desc__cont2__ico1, .cont4__cont_rest__rest3__desc__cont2:hover .cont4__cont_rest__rest1__desc__cont2__ico1, .cont4__cont_rest__rest4__desc__cont2:hover .cont4__cont_rest__rest1__desc__cont2__ico1, .cont4__cont_rest__rest1__desc__cont2:hover .cont4__cont_rest__rest2__desc__cont2__ico1, .cont4__cont_rest__rest2__desc__cont2:hover .cont4__cont_rest__rest2__desc__cont2__ico1, .cont4__cont_rest__rest3__desc__cont2:hover .cont4__cont_rest__rest2__desc__cont2__ico1, .cont4__cont_rest__rest4__desc__cont2:hover .cont4__cont_rest__rest2__desc__cont2__ico1, .cont4__cont_rest__rest1__desc__cont2:hover .cont4__cont_rest__rest3__desc__cont2__ico1, .cont4__cont_rest__rest2__desc__cont2:hover .cont4__cont_rest__rest3__desc__cont2__ico1, .cont4__cont_rest__rest3__desc__cont2:hover .cont4__cont_rest__rest3__desc__cont2__ico1, .cont4__cont_rest__rest4__desc__cont2:hover .cont4__cont_rest__rest3__desc__cont2__ico1, .cont4__cont_rest__rest1__desc__cont2:hover .cont4__cont_rest__rest4__desc__cont2__ico1, .cont4__cont_rest__rest2__desc__cont2:hover .cont4__cont_rest__rest4__desc__cont2__ico1, .cont4__cont_rest__rest3__desc__cont2:hover .cont4__cont_rest__rest4__desc__cont2__ico1, .cont4__cont_rest__rest4__desc__cont2:hover .cont4__cont_rest__rest4__desc__cont2__ico1 {
   background: -webkit-gradient(linear, right top, left bottom, from(#9356DC), to(#FF79DA));
   background: linear-gradient(to bottom left, #9356DC, #FF79DA);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: heart 200ms ease-in-out;
           animation: heart 200ms ease-in-out;

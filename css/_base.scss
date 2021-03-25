@@ -154,7 +154,7 @@ a {
                     font-size: 1.5em;
                     opacity: 0;
                     background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
-                    background-clip: text;
+                    -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
                 &:hover &__2 {
@@ -164,7 +164,7 @@ a {
                 }
                 &:hover &__1 {
                     background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
-                    background-clip: text;
+                    -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     animation: heart 200ms ease-in-out;
                 }
@@ -509,7 +509,7 @@ a {
                         font-size: 1.3em;
                         opacity: 0;
                         background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
-                        background-clip: text;
+                        -webkit-background-clip: text;
 	                    -webkit-text-fill-color: transparent;
                         padding: 2px 2px 2px 2px;
                     }
@@ -520,7 +520,7 @@ a {
                     }
                     &:hover &__ico1 {
                         background: linear-gradient(to bottom left, $clr-primary, $clr-secondary);
-                        background-clip: text;
+                        -webkit-background-clip: text;
 	                    -webkit-text-fill-color: transparent;
                         animation: heart 200ms ease-in-out;
                     }
